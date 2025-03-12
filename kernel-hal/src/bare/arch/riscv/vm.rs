@@ -45,7 +45,7 @@ fn init_kernel_page_table() -> PagingResult<PageTable> {
         etext as usize,
         MMUFlags::READ | MMUFlags::WRITE | MMUFlags::EXECUTE,
     )?;
-    map_range(srodata as usize, erodata as usize, MMUFlags::READ)?;
+    map_range(srodata as usize, erodata as usize, MMUFlags::READ| MMUFlags::WRITE)?;
     map_range(
         sdata as usize,
         edata as usize,

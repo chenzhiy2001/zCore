@@ -11,6 +11,7 @@ static u64 (*bpf_ktime_get_ns)() = (void*) 5;
 static int (*bpf_get_smp_processor_id)() = (void*) 8;
 static i64 (*bpf_get_current_pid_tgid)() = (void*) 14;
 static int (*bpf_get_current_comm)(char *buf, int max_size) = (void*) 16;
+static i64 (*bpf_get_depth)(u64 pc, u64 fp) = (void*) 17;
 
 #define bpf_trace_printk(fmt, p1, p2, p3) do { \
     const char _fmt[] = fmt; \

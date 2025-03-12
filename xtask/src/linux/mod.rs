@@ -10,6 +10,7 @@ use std::{
     fs,
     os::unix,
     path::{Path, PathBuf},
+    process::Command
 };
 
 pub(crate) struct LinuxRootfs(Arch);
@@ -25,10 +26,7 @@ impl LinuxRootfs {
     /// 对于 x86_64，这个文件系统可用于 libos 启动。
     /// 若设置 `clear`，将清除已存在的目录。
     pub fn make(&self, clear: bool) {
-        // 若已存在且不需要清空，可以直接退出
-        let dir = self.path();
-        if dir.is_dir() && !clear {
-            // 重新编译后debuginfo会变化，需要覆盖
+        let get_zcore_sym = || {
             let zcore = self.zcore_elf();
             match fs::copy(zcore, self.path().join("zcore")) {
                 Ok(_) => {}
@@ -37,12 +35,46 @@ impl LinuxRootfs {
                 }
             }
             let symtab = self.symbol_table();
-            match fs::copy(symtab, self.path().join("zcore.sym")) {
+            let mangled_symtab = self.path().join("zcore-mangled.sym");
+            match fs::copy(&symtab, &mangled_symtab) {
                 Ok(_) => {}
                 Err(e) => {
-                    println!("copy zcore.sym failed: {}, No symbol table", e);
+                    println!("copy zcore-mangled.sym failed: {}", e);
+                    return;
                 }
             }
+            let output = Command::new("bash")
+                .arg("-c")
+                .arg(format!("rustfilt < {} > {}", mangled_symtab.display(), self.path().join("zcore.sym").display()))
+                .output()
+                .expect("failed to execute rustfilt");
+            if !output.status.success() {
+                println!("rustfilt failed: {}", String::from_utf8_lossy(&output.stderr));
+            }
+        };
+        let get_async_fn = || {
+            let symtab = self.symbol_table();
+            let output = Command::new("bash")
+            .arg("-c")
+            .arg(format!(
+                "cat {} | grep -E \"_<async_std..task..builder..SupportTaskLocals<F> as core..future..future..Future>::poll::_{{closure}}|_<core..future..from_generator..GenFuture<T> as core..future..future..Future>::poll|.*::_\\{{closure\\}}|.*as core..future..future..Future>::poll\"",
+                symtab.display()
+            ))
+            .output()
+            .expect("failed to execute process");
+
+            if !output.stdout.is_empty() {
+            let async_fn_path = self.path().join("zcore-async-fn.sym");
+            fs::write(&async_fn_path, &output.stdout).expect("Unable to write async functions to file");
+            println!("{}", String::from_utf8_lossy(&output.stdout));
+            }
+        };
+        // 若已存在且不需要清空，可以直接退出
+        let dir = self.path();
+        if dir.is_dir() && !clear {
+            // 重新编译后debuginfo会变化，需要覆盖
+            get_zcore_sym();
+            get_async_fn();
             return;
         }
         // 准备最小系统需要的资源
@@ -63,20 +95,8 @@ impl LinuxRootfs {
             .join("libc.so");
         let to = lib.join(format!("ld-musl-{arch}.so.1", arch = self.0.name()));
         fs::copy(from, &to).unwrap();
-        let zcore = self.zcore_elf();
-        match fs::copy(zcore, self.path().join("zcore")) {
-            Ok(_) => {}
-            Err(e) => {
-                println!("copy zcore failed: {}", e);
-            }
-        }
-        let symtab = self.symbol_table();
-        match fs::copy(symtab, self.path().join("zcore.sym")) {
-            Ok(_) => {}
-            Err(e) => {
-                println!("copy zcore.sym failed: {}, No symbol table", e);
-            }
-        }
+        get_zcore_sym();
+        get_async_fn();
         Ext::new(self.strip(musl)).arg("-s").arg(to).invoke();
         // 为常用功能建立符号链接
         const SH: &[&str] = &[
@@ -106,7 +126,11 @@ impl LinuxRootfs {
     }
 
     fn zcore_elf(&self) -> PathBuf {
-        PROJECT_DIR.join("target").join(self.0.name()).join("release").join("zcore")
+        PROJECT_DIR
+            .join("target")
+            .join(self.0.name())
+            .join("release")
+            .join("zcore")
     }
 
     fn symbol_table(&self) -> PathBuf {

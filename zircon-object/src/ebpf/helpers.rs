@@ -1,13 +1,20 @@
 use alloc::string::ToString;
+use core::mem::size_of;
 
 use super::{
     retcode::*,
     osutil::*, map::{bpf_map_lookup_elem, bpf_map_update_elem, bpf_map_delete_elem},
 };
 
+extern "C" {
+    fn stext();
+    fn etext();
+    fn sstack();
+}
+
 pub type BpfHelperFn = fn(u64, u64, u64, u64, u64) -> i64;
 
-pub const HELPER_FN_COUNT: usize = 17;
+pub const HELPER_FN_COUNT: usize = 18;
 pub static HELPER_FN_TABLE: [BpfHelperFn; HELPER_FN_COUNT] = [
     bpf_helper_nop,
     bpf_helper_map_lookup_elem,
@@ -26,6 +33,7 @@ pub static HELPER_FN_TABLE: [BpfHelperFn; HELPER_FN_COUNT] = [
     bpf_helper_get_current_pid_tgid,
     bpf_helper_nop, // bpf_get_current_uid_gid
     bpf_helper_get_current_comm,
+    bpf_helper_get_depth
 ];
 
 // WARNING: be careful to use bpf_probe_read, bpf_get_current_pid_tgid & bpf_get_current_comm
@@ -135,4 +143,31 @@ fn bpf_helper_get_current_comm(dst: u64, buf_size: u64, _1: u64, _2: u64, _3: u6
         *dst_ptr.add(len) = 0;
     }
     len as i64
+}
+
+fn bpf_helper_get_depth(current_pc: u64, current_fp: u64, _3: u64, _4: u64, _5: u64) -> i64 {
+    #[cfg(any(target_arch = "riscv32", target_arch = "riscv64"))]
+    unsafe {
+        let mut current_pc = current_pc as usize;
+        let mut current_fp = current_fp as usize;
+        let mut trace_pc = vec!();
+
+        while current_pc >= stext as usize
+            && current_pc <= etext as usize
+            && current_fp as usize != 0
+        {
+
+            trace_pc.push(current_pc - size_of::<usize>());
+            #[cfg(any(target_arch = "riscv32", target_arch = "riscv64"))]
+            {
+                current_fp = *(current_fp as *const usize).offset(-2);
+                // raw address 0x803ba000 appeared in the backtrace and I don't know why, traced into bootloading phase?
+                if current_fp < sstack as usize {
+                    break;
+                }
+                current_pc = *(current_fp as *const usize).offset(-1);
+            }
+        }
+        return (trace_pc.len()-1) as i64;
+    }
 }
