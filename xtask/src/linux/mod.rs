@@ -51,30 +51,33 @@ impl LinuxRootfs {
             if !output.status.success() {
                 println!("rustfilt failed: {}", String::from_utf8_lossy(&output.stderr));
             }
-        };
-        let get_async_fn = || {
-            let symtab = self.symbol_table();
+
+            println!("get async fn");
+            let zcore_sym = self.path().join("zcore.sym"); // demangled
+
             let output = Command::new("bash")
-            .arg("-c")
+            //| grep -vi \"bpf\"
+            // uftrace format: "cat {} | grep -E \"_<async_std..task..builder..SupportTaskLocals<F> as core..future..future..Future>::poll::_{{closure}}|_<core..future..from_generator..GenFuture<T> as core..future..future..Future>::poll|.*::_\\{{closure\\}}|.*as core..future..future..Future>::poll\"",
+            .arg("-c") 
             .arg(format!(
-                "cat {} | grep -E \"_<async_std..task..builder..SupportTaskLocals<F> as core..future..future..Future>::poll::_{{closure}}|_<core..future..from_generator..GenFuture<T> as core..future..future..Future>::poll|.*::_\\{{closure\\}}|.*as core..future..future..Future>::poll\"",
-                symtab.display()
+                "cat {} | |grep -E \"<async_std..task..builder..SupportTaskLocals<.*> as core..future..future..Future>::poll::\\{{closure.*\\}}|<core..future..from_generator..GenFuture<.*> as core..future..future..Future>::poll|.*::\\{{closure.*\\}}|.*as core..future..future..Future>::poll|executor\" | grep -vi \"bpf|btree\"", 
+                zcore_sym.display()
             ))
             .output()
             .expect("failed to execute process");
 
             if !output.stdout.is_empty() {
-            let async_fn_path = self.path().join("zcore-async-fn.sym");
-            fs::write(&async_fn_path, &output.stdout).expect("Unable to write async functions to file");
-            println!("{}", String::from_utf8_lossy(&output.stdout));
+                let async_fn_path: PathBuf = self.path().join("zcore-async-fn.sym");
+                fs::write(&async_fn_path, &output.stdout).expect("Unable to write async functions to file");
             }
+
+
         };
         // 若已存在且不需要清空，可以直接退出
         let dir = self.path();
         if dir.is_dir() && !clear {
             // 重新编译后debuginfo会变化，需要覆盖
             get_zcore_sym();
-            get_async_fn();
             return;
         }
         // 准备最小系统需要的资源
@@ -96,7 +99,6 @@ impl LinuxRootfs {
         let to = lib.join(format!("ld-musl-{arch}.so.1", arch = self.0.name()));
         fs::copy(from, &to).unwrap();
         get_zcore_sym();
-        get_async_fn();
         Ext::new(self.strip(musl)).arg("-s").arg(to).invoke();
         // 为常用功能建立符号链接
         const SH: &[&str] = &[

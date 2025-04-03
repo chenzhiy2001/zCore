@@ -71,9 +71,11 @@ int main() {
         printf("attach kretprobe@exit: %d\n", bpf_prog_attach(fn_exit, strlen(fn_exit), bpf_fd));
     }
 
-    fclose(sym_file);
+    printf("all attached, exit without closing files\n");
+
+    // fclose(sym_file);
     
-    close(fd);
+    // close(fd);
 
     // printf("busy loop");
     // while (1) {

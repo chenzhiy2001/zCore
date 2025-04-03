@@ -36,12 +36,12 @@ impl ThreadLike for Thread {
     }
 }
 
-pub fn os_current_thread() -> Arc<dyn ThreadLike> {
+pub fn os_current_thread() -> Option<Arc<dyn ThreadLike>> {
     if let Some(thread) = kernel_hal::thread::get_current_thread() {
-        let ret = thread.downcast::<Thread>().unwrap();
-        ret
+        let ret = thread.downcast::<Thread>().ok()?;
+        Some(ret)
     } else {
-        panic!("cannot get current thread!")
+        None
     }
 }
 

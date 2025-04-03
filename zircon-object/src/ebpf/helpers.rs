@@ -122,14 +122,17 @@ fn bpf_helper_get_smp_processor_id(_1: u64, _2: u64, _3: u64, _4: u64, _5: u64) 
 }
 
 fn bpf_helper_get_current_pid_tgid(_1: u64, _2: u64, _3: u64, _4: u64, _5: u64) -> i64 {
-    let thread = os_current_thread();
+    let thread = match os_current_thread() {
+        Some(thread) => thread,
+        None => return -1,
+    };
     let pid = thread.get_pid();
     // NOTE: tgid is the same with pid
     ((pid << 32) | pid) as i64
 }
 
 fn bpf_helper_get_current_comm(dst: u64, buf_size: u64, _1: u64, _2: u64, _3: u64) -> i64 {
-    let thread = os_current_thread();
+    let thread = os_current_thread().unwrap();
     let dst_ptr = dst as *mut u8;
     let name = thread.get_name();
     let name_ptr = name.as_bytes();
