@@ -17,9 +17,7 @@ def process_log_file(file_path):
                 addr = hex(int(parts[3]))
                 depth = int(parts[4])
 
-                # addr2line_cmd = f"addr2line -e target/riscv64/release/zcore -f {addr} -C"
-                # result = subprocess.run(addr2line_cmd, shell=True, capture_output=True, text=True)
-                # fn_name = result.stdout.splitlines()[0]
+
 
                 with open("rootfs/riscv64/zcore-async-fn.sym", "r") as sym_file:
                     addr = addr[2:] # remove 0x
@@ -31,6 +29,13 @@ def process_log_file(file_path):
                         if len(sym_parts) >= 2 and sym_parts[0] == addr:
                             fn_name = " ".join(sym_parts[2:]).splitlines()[0]
                             break
+
+                if fn_name == "unknown":
+                        addr2line_cmd = f"addr2line -e target/riscv64/release/zcore -f {addr} -C"
+                        result = subprocess.run(addr2line_cmd, shell=True, capture_output=True, text=True)
+                        fn_name = result.stdout.splitlines()[0]
+
+
                 
                 # if entry_exit == "exit":
                 #     entry_exit = "exit "

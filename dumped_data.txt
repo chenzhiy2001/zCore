@@ -1,0 +1,1785 @@
+reading 1.dat
+
+12945196400   1073: [entry] core::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::read::{closure#0}>>(ffffffc0802254ae) depth: 3
+
+12947486900   1073: [exit] core::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::read::{closure#0}>>(ffffffc0802254ae) depth: 3
+
+13061147100   18446744073709551615: [entry] <executor::task_collection::TaskCollection>::generator::{closure#0}(ffffffc08020e6cc) depth: 1
+
+13061656300   18446744073709551615: [exit] <executor::task_collection::TaskCollection>::generator::{closure#0}(ffffffc08020e6cc) depth: 1
+
+13062172300   18446744073709551615: [entry] <executor::task_collection::TaskCollection>::generator::{closure#0}(ffffffc08020e6cc) depth: 1
+
+13062606300   18446744073709551615: [exit] <executor::task_collection::TaskCollection>::generator::{closure#0}(ffffffc08020e6cc) depth: 1
+
+13063418900   1073: [entry] core::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::read::{closure#0}>>(ffffffc0802254ae) depth: 3
+
+13063855100   1073: [exit] core::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::read::{closure#0}>>(ffffffc0802254ae) depth: 3
+
+13144262300   1073: [entry] core::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::read::{closure#0}>>(ffffffc0802254ae) depth: 3
+
+13144594700   1073: [exit] core::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::read::{closure#0}>>(ffffffc0802254ae) depth: 3
+
+13234052600   1073: [entry] <core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::read::{closure#0}> as core::future::future::Future>::poll(ffffffc08022e044) depth: 3
+
+13234459400   1073: [entry] <core::future::from_generator::GenFuture<<linux_object::fs::file::FileInner>::read_at::{closure#0}> as core::future::future::Future>::poll(ffffffc08022e2a4) depth: 4
+
+13234824400   1073: [exit] <core::future::from_generator::GenFuture<<linux_object::fs::file::FileInner>::read_at::{closure#0}> as core::future::future::Future>::poll(ffffffc08022e2a4) depth: 4
+
+13235165700   1073: [exit] <core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::read::{closure#0}> as core::future::future::Future>::poll(ffffffc08022e044) depth: 3
+
+13235501100   1073: [entry] core::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::read::{closure#0}>>(ffffffc0802254ae) depth: 3
+
+13235806900   1073: [exit] core::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::read::{closure#0}>>(ffffffc0802254ae) depth: 3
+
+13329124200   1073: [entry] <core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::read::{closure#0}> as core::future::future::Future>::poll(ffffffc08022e044) depth: 3
+
+13329794000   1073: [entry] <core::future::from_generator::GenFuture<<linux_object::fs::file::FileInner>::read_at::{closure#0}> as core::future::future::Future>::poll(ffffffc08022e2a4) depth: 4
+
+13330377600   1073: [exit] <core::future::from_generator::GenFuture<<linux_object::fs::file::FileInner>::read_at::{closure#0}> as core::future::future::Future>::poll(ffffffc08022e2a4) depth: 4
+
+13331002200   1073: [exit] <core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::read::{closure#0}> as core::future::future::Future>::poll(ffffffc08022e044) depth: 3
+
+13331650600   1073: [entry] core::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::read::{closure#0}>>(ffffffc0802254ae) depth: 3
+
+13332287000   1073: [exit] core::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::read::{closure#0}>>(ffffffc0802254ae) depth: 3
+
+13499449500   1073: [entry] <core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::read::{closure#0}> as core::future::future::Future>::poll(ffffffc08022e044) depth: 3
+
+13499775100   1073: [entry] <core::future::from_generator::GenFuture<<linux_object::fs::file::FileInner>::read_at::{closure#0}> as core::future::future::Future>::poll(ffffffc08022e2a4) depth: 4
+
+13500092200   1073: [exit] <core::future::from_generator::GenFuture<<linux_object::fs::file::FileInner>::read_at::{closure#0}> as core::future::future::Future>::poll(ffffffc08022e2a4) depth: 4
+
+13500438200   1073: [exit] <core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::read::{closure#0}> as core::future::future::Future>::poll(ffffffc08022e044) depth: 3
+
+13500808400   1073: [entry] core::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::read::{closure#0}>>(ffffffc0802254ae) depth: 3
+
+13501114100   1073: [exit] core::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::read::{closure#0}>>(ffffffc0802254ae) depth: 3
+
+13623130900   1073: [entry] <core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::read::{closure#0}> as core::future::future::Future>::poll(ffffffc08022e044) depth: 3
+
+13623727400   1073: [entry] <core::future::from_generator::GenFuture<<linux_object::fs::file::FileInner>::read_at::{closure#0}> as core::future::future::Future>::poll(ffffffc08022e2a4) depth: 4
+
+13624359200   1073: [exit] <core::future::from_generator::GenFuture<<linux_object::fs::file::FileInner>::read_at::{closure#0}> as core::future::future::Future>::poll(ffffffc08022e2a4) depth: 4
+
+13624987000   1073: [exit] <core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::read::{closure#0}> as core::future::future::Future>::poll(ffffffc08022e044) depth: 3
+
+13625615300   1073: [entry] core::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::read::{closure#0}>>(ffffffc0802254ae) depth: 3
+
+13626264600   1073: [exit] core::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::read::{closure#0}>>(ffffffc0802254ae) depth: 3
+
+13769914900   1073: [entry] <core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::read::{closure#0}> as core::future::future::Future>::poll(ffffffc08022e044) depth: 3
+
+13770247300   1073: [entry] <core::future::from_generator::GenFuture<<linux_object::fs::file::FileInner>::read_at::{closure#0}> as core::future::future::Future>::poll(ffffffc08022e2a4) depth: 4
+
+13770688200   1073: [exit] <core::future::from_generator::GenFuture<<linux_object::fs::file::FileInner>::read_at::{closure#0}> as core::future::future::Future>::poll(ffffffc08022e2a4) depth: 4
+
+13771763300   1073: [exit] <core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::read::{closure#0}> as core::future::future::Future>::poll(ffffffc08022e044) depth: 3
+
+13772233300   1073: [entry] core::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::read::{closure#0}>>(ffffffc0802254ae) depth: 3
+
+13772566400   1073: [exit] core::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::read::{closure#0}>>(ffffffc0802254ae) depth: 3
+
+13942857200   1073: [entry] <core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::read::{closure#0}> as core::future::future::Future>::poll(ffffffc08022e044) depth: 3
+
+13943255100   1073: [entry] <core::future::from_generator::GenFuture<<linux_object::fs::file::FileInner>::read_at::{closure#0}> as core::future::future::Future>::poll(ffffffc08022e2a4) depth: 4
+
+13943646200   1073: [exit] <core::future::from_generator::GenFuture<<linux_object::fs::file::FileInner>::read_at::{closure#0}> as core::future::future::Future>::poll(ffffffc08022e2a4) depth: 4
+
+13944086100   1073: [exit] <core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::read::{closure#0}> as core::future::future::Future>::poll(ffffffc08022e044) depth: 3
+
+13944440800   1073: [entry] core::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::read::{closure#0}>>(ffffffc0802254ae) depth: 3
+
+13944840300   1073: [exit] core::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::read::{closure#0}>>(ffffffc0802254ae) depth: 3
+
+14064600200   18446744073709551615: [entry] <executor::task_collection::TaskCollection>::generator::{closure#0}(ffffffc08020e6cc) depth: 1
+
+14065874600   18446744073709551615: [exit] <executor::task_collection::TaskCollection>::generator::{closure#0}(ffffffc08020e6cc) depth: 1
+
+14109100200   1073: [entry] <core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::read::{closure#0}> as core::future::future::Future>::poll(ffffffc08022e044) depth: 3
+
+14110150400   1073: [entry] <core::future::from_generator::GenFuture<<linux_object::fs::file::FileInner>::read_at::{closure#0}> as core::future::future::Future>::poll(ffffffc08022e2a4) depth: 4
+
+14110975000   1073: [exit] <core::future::from_generator::GenFuture<<linux_object::fs::file::FileInner>::read_at::{closure#0}> as core::future::future::Future>::poll(ffffffc08022e2a4) depth: 4
+
+14112175600   1073: [exit] <core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::read::{closure#0}> as core::future::future::Future>::poll(ffffffc08022e044) depth: 3
+
+14112517200   1073: [entry] core::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::read::{closure#0}>>(ffffffc0802254ae) depth: 3
+
+14112966100   1073: [exit] core::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::read::{closure#0}>>(ffffffc0802254ae) depth: 3
+
+14243283600   1073: [entry] <core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::read::{closure#0}> as core::future::future::Future>::poll(ffffffc08022e044) depth: 3
+
+14244013800   1073: [entry] <core::future::from_generator::GenFuture<<linux_object::fs::file::FileInner>::read_at::{closure#0}> as core::future::future::Future>::poll(ffffffc08022e2a4) depth: 4
+
+14244641200   1073: [exit] <core::future::from_generator::GenFuture<<linux_object::fs::file::FileInner>::read_at::{closure#0}> as core::future::future::Future>::poll(ffffffc08022e2a4) depth: 4
+
+14245303700   1073: [exit] <core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::read::{closure#0}> as core::future::future::Future>::poll(ffffffc08022e044) depth: 3
+
+14246012100   1073: [entry] core::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::read::{closure#0}>>(ffffffc0802254ae) depth: 3
+
+14246656000   1073: [exit] core::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::read::{closure#0}>>(ffffffc0802254ae) depth: 3
+
+14337498500   1073: [entry] <core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::read::{closure#0}> as core::future::future::Future>::poll(ffffffc08022e044) depth: 3
+
+14337877400   1073: [entry] <core::future::from_generator::GenFuture<<linux_object::fs::file::FileInner>::read_at::{closure#0}> as core::future::future::Future>::poll(ffffffc08022e2a4) depth: 4
+
+14338266400   1073: [exit] <core::future::from_generator::GenFuture<<linux_object::fs::file::FileInner>::read_at::{closure#0}> as core::future::future::Future>::poll(ffffffc08022e2a4) depth: 4
+
+14338584700   1073: [exit] <core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::read::{closure#0}> as core::future::future::Future>::poll(ffffffc08022e044) depth: 3
+
+14338937600   1073: [entry] core::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::read::{closure#0}>>(ffffffc0802254ae) depth: 3
+
+14339270800   1073: [exit] core::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::read::{closure#0}>>(ffffffc0802254ae) depth: 3
+
+14475967700   1073: [entry] <core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::read::{closure#0}> as core::future::future::Future>::poll(ffffffc08022e044) depth: 3
+
+14476644700   1073: [entry] <core::future::from_generator::GenFuture<<linux_object::fs::file::FileInner>::read_at::{closure#0}> as core::future::future::Future>::poll(ffffffc08022e2a4) depth: 4
+
+14477289800   1073: [exit] <core::future::from_generator::GenFuture<<linux_object::fs::file::FileInner>::read_at::{closure#0}> as core::future::future::Future>::poll(ffffffc08022e2a4) depth: 4
+
+14477877900   1073: [exit] <core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::read::{closure#0}> as core::future::future::Future>::poll(ffffffc08022e044) depth: 3
+
+14478466300   1073: [entry] core::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::read::{closure#0}>>(ffffffc0802254ae) depth: 3
+
+14479102400   1073: [exit] core::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::read::{closure#0}>>(ffffffc0802254ae) depth: 3
+
+14608568700   1073: [entry] <core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::read::{closure#0}> as core::future::future::Future>::poll(ffffffc08022e044) depth: 3
+
+14608874300   1073: [entry] <core::future::from_generator::GenFuture<<linux_object::fs::file::FileInner>::read_at::{closure#0}> as core::future::future::Future>::poll(ffffffc08022e2a4) depth: 4
+
+14609256100   1073: [exit] <core::future::from_generator::GenFuture<<linux_object::fs::file::FileInner>::read_at::{closure#0}> as core::future::future::Future>::poll(ffffffc08022e2a4) depth: 4
+
+14609566700   1073: [exit] <core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::read::{closure#0}> as core::future::future::Future>::poll(ffffffc08022e044) depth: 3
+
+14609864500   1073: [entry] core::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::read::{closure#0}>>(ffffffc0802254ae) depth: 3
+
+14610170900   1073: [exit] core::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::read::{closure#0}>>(ffffffc0802254ae) depth: 3
+
+14720783100   1073: [entry] <core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::read::{closure#0}> as core::future::future::Future>::poll(ffffffc08022e044) depth: 3
+
+14721456500   1073: [entry] <core::future::from_generator::GenFuture<<linux_object::fs::file::FileInner>::read_at::{closure#0}> as core::future::future::Future>::poll(ffffffc08022e2a4) depth: 4
+
+14722132000   1073: [exit] <core::future::from_generator::GenFuture<<linux_object::fs::file::FileInner>::read_at::{closure#0}> as core::future::future::Future>::poll(ffffffc08022e2a4) depth: 4
+
+14723133000   1073: [exit] <core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::read::{closure#0}> as core::future::future::Future>::poll(ffffffc08022e044) depth: 3
+
+14723603500   1073: [entry] core::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::read::{closure#0}>>(ffffffc0802254ae) depth: 3
+
+14724085400   1073: [exit] core::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::read::{closure#0}>>(ffffffc0802254ae) depth: 3
+
+14852644300   1073: [entry] <core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::read::{closure#0}> as core::future::future::Future>::poll(ffffffc08022e044) depth: 3
+
+14853015100   1073: [entry] <core::future::from_generator::GenFuture<<linux_object::fs::file::FileInner>::read_at::{closure#0}> as core::future::future::Future>::poll(ffffffc08022e2a4) depth: 4
+
+14853422800   1073: [exit] <core::future::from_generator::GenFuture<<linux_object::fs::file::FileInner>::read_at::{closure#0}> as core::future::future::Future>::poll(ffffffc08022e2a4) depth: 4
+
+14854101800   1073: [exit] <core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::read::{closure#0}> as core::future::future::Future>::poll(ffffffc08022e044) depth: 3
+
+14854743900   1073: [entry] core::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::read::{closure#0}>>(ffffffc0802254ae) depth: 3
+
+14855438500   1073: [exit] core::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::read::{closure#0}>>(ffffffc0802254ae) depth: 3
+
+15069781700   18446744073709551615: [entry] <executor::task_collection::TaskCollection>::generator::{closure#0}(ffffffc08020e6cc) depth: 1
+
+15070878900   18446744073709551615: [exit] <executor::task_collection::TaskCollection>::generator::{closure#0}(ffffffc08020e6cc) depth: 1
+
+15072497100   1073: [entry] <core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::read::{closure#0}> as core::future::future::Future>::poll(ffffffc08022e044) depth: 3
+
+15073181700   1073: [entry] <core::future::from_generator::GenFuture<<linux_object::fs::file::FileInner>::read_at::{closure#0}> as core::future::future::Future>::poll(ffffffc08022e2a4) depth: 4
+
+15073930000   1073: [exit] <core::future::from_generator::GenFuture<<linux_object::fs::file::FileInner>::read_at::{closure#0}> as core::future::future::Future>::poll(ffffffc08022e2a4) depth: 4
+
+15074521000   1073: [exit] <core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::read::{closure#0}> as core::future::future::Future>::poll(ffffffc08022e044) depth: 3
+
+15074853000   1073: [entry] core::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::read::{closure#0}>>(ffffffc0802254ae) depth: 3
+
+15075184500   1073: [exit] core::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::read::{closure#0}>>(ffffffc0802254ae) depth: 3
+
+15258045700   1073: [entry] <core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::read::{closure#0}> as core::future::future::Future>::poll(ffffffc08022e044) depth: 3
+
+15258368000   1073: [entry] <core::future::from_generator::GenFuture<<linux_object::fs::file::FileInner>::read_at::{closure#0}> as core::future::future::Future>::poll(ffffffc08022e2a4) depth: 4
+
+15259063900   1073: [exit] <core::future::from_generator::GenFuture<<linux_object::fs::file::FileInner>::read_at::{closure#0}> as core::future::future::Future>::poll(ffffffc08022e2a4) depth: 4
+
+15259419500   1073: [exit] <core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::read::{closure#0}> as core::future::future::Future>::poll(ffffffc08022e044) depth: 3
+
+15259706700   1073: [entry] core::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::read::{closure#0}>>(ffffffc0802254ae) depth: 3
+
+15259996900   1073: [exit] core::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::read::{closure#0}>>(ffffffc0802254ae) depth: 3
+
+15364446700   1073: [entry] <core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::read::{closure#0}> as core::future::future::Future>::poll(ffffffc08022e044) depth: 3
+
+15364884400   1073: [entry] <core::future::from_generator::GenFuture<<linux_object::fs::file::FileInner>::read_at::{closure#0}> as core::future::future::Future>::poll(ffffffc08022e2a4) depth: 4
+
+15365289700   1073: [exit] <core::future::from_generator::GenFuture<<linux_object::fs::file::FileInner>::read_at::{closure#0}> as core::future::future::Future>::poll(ffffffc08022e2a4) depth: 4
+
+15365616700   1073: [exit] <core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::read::{closure#0}> as core::future::future::Future>::poll(ffffffc08022e044) depth: 3
+
+15366015500   1073: [entry] core::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::read::{closure#0}>>(ffffffc0802254ae) depth: 3
+
+15366336200   1073: [exit] core::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::read::{closure#0}>>(ffffffc0802254ae) depth: 3
+
+15478682600   1073: [entry] <core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::read::{closure#0}> as core::future::future::Future>::poll(ffffffc08022e044) depth: 3
+
+15478979200   1073: [entry] <core::future::from_generator::GenFuture<<linux_object::fs::file::FileInner>::read_at::{closure#0}> as core::future::future::Future>::poll(ffffffc08022e2a4) depth: 4
+
+15479301400   1073: [exit] <core::future::from_generator::GenFuture<<linux_object::fs::file::FileInner>::read_at::{closure#0}> as core::future::future::Future>::poll(ffffffc08022e2a4) depth: 4
+
+15479635500   1073: [exit] <core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::read::{closure#0}> as core::future::future::Future>::poll(ffffffc08022e044) depth: 3
+
+15480074000   1073: [entry] core::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::read::{closure#0}>>(ffffffc0802254ae) depth: 3
+
+15480413400   1073: [exit] core::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::read::{closure#0}>>(ffffffc0802254ae) depth: 3
+
+15596354500   1073: [entry] <core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::read::{closure#0}> as core::future::future::Future>::poll(ffffffc08022e044) depth: 3
+
+15596983100   1073: [entry] <core::future::from_generator::GenFuture<<linux_object::fs::file::FileInner>::read_at::{closure#0}> as core::future::future::Future>::poll(ffffffc08022e2a4) depth: 4
+
+15597494100   1073: [exit] <core::future::from_generator::GenFuture<<linux_object::fs::file::FileInner>::read_at::{closure#0}> as core::future::future::Future>::poll(ffffffc08022e2a4) depth: 4
+
+15597846200   1073: [exit] <core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::read::{closure#0}> as core::future::future::Future>::poll(ffffffc08022e044) depth: 3
+
+15598138000   1073: [entry] core::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::read::{closure#0}>>(ffffffc0802254ae) depth: 3
+
+15598440000   1073: [exit] core::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::read::{closure#0}>>(ffffffc0802254ae) depth: 3
+
+15740933700   1073: [entry] <core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::read::{closure#0}> as core::future::future::Future>::poll(ffffffc08022e044) depth: 3
+
+15741343200   1073: [entry] <core::future::from_generator::GenFuture<<linux_object::fs::file::FileInner>::read_at::{closure#0}> as core::future::future::Future>::poll(ffffffc08022e2a4) depth: 4
+
+15741744300   1073: [exit] <core::future::from_generator::GenFuture<<linux_object::fs::file::FileInner>::read_at::{closure#0}> as core::future::future::Future>::poll(ffffffc08022e2a4) depth: 4
+
+15742082100   1073: [exit] <core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::read::{closure#0}> as core::future::future::Future>::poll(ffffffc08022e044) depth: 3
+
+15742438200   1073: [entry] core::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::read::{closure#0}>>(ffffffc0802254ae) depth: 3
+
+15742772400   1073: [exit] core::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::read::{closure#0}>>(ffffffc0802254ae) depth: 3
+
+15853901800   1073: [entry] <core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::read::{closure#0}> as core::future::future::Future>::poll(ffffffc08022e044) depth: 3
+
+15854938800   1073: [entry] <core::future::from_generator::GenFuture<<linux_object::fs::file::FileInner>::read_at::{closure#0}> as core::future::future::Future>::poll(ffffffc08022e2a4) depth: 4
+
+15856004800   1073: [exit] <core::future::from_generator::GenFuture<<linux_object::fs::file::FileInner>::read_at::{closure#0}> as core::future::future::Future>::poll(ffffffc08022e2a4) depth: 4
+
+15856760000   1073: [exit] <core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::read::{closure#0}> as core::future::future::Future>::poll(ffffffc08022e044) depth: 3
+
+15857379100   1073: [entry] core::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::read::{closure#0}>>(ffffffc0802254ae) depth: 3
+
+15858173000   1073: [exit] core::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::read::{closure#0}>>(ffffffc0802254ae) depth: 3
+
+15912575400   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+15913764200   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+15914379000   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+15914716600   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+15922204700   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+15922622500   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+15923169900   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+15923633700   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+15924329100   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+15924737800   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+15925134700   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+15925423000   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+15925886200   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+15926230900   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+15938269900   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+15938831100   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+15939680000   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+15940291000   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+15941107000   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+15941672100   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+15942286900   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+15942793900   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+15955071000   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+15955549300   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+15956069300   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+15956613900   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+15957866000   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+15958293300   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+15959019200   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+15959524200   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+15960064000   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+15960544700   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+15973557400   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+15974285200   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+15975016000   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+15975464100   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+15976122200   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+15976578400   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+15977091800   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+15977548300   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+15990122700   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+15990731000   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+15991559800   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+15992110400   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+15993040000   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+15993559400   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+15994181600   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+15994638800   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+15995217100   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+15995716900   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16009402700   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16010209100   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16011293900   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16011961500   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16012717200   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16013236700   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16013855500   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16014431400   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16026152400   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16026558800   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16026960500   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16027262300   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16027927700   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16028225700   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16028601300   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16028885900   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16029207100   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16029536700   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16038207600   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16038541000   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16039153100   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16039617200   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16040254000   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16040952800   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16041743000   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16042426200   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16056345900   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16057105500   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16057999600   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16058623800   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16059291800   1073: [entry] <core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::read::{closure#0}> as core::future::future::Future>::poll(ffffffc08022e044) depth: 3
+
+16059964300   1073: [entry] <core::future::from_generator::GenFuture<<linux_object::fs::file::FileInner>::read_at::{closure#0}> as core::future::future::Future>::poll(ffffffc08022e2a4) depth: 0
+
+16060648500   1073: [exit] <core::future::from_generator::GenFuture<<linux_object::fs::file::FileInner>::read_at::{closure#0}> as core::future::future::Future>::poll(ffffffc08022e2a4) depth: 0
+
+16061273000   1073: [exit] <core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::read::{closure#0}> as core::future::future::Future>::poll(ffffffc08022e044) depth: 3
+
+16061900900   1073: [entry] core::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::read::{closure#0}>>(ffffffc0802254ae) depth: 3
+
+16062489100   1073: [exit] core::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::read::{closure#0}>>(ffffffc0802254ae) depth: 3
+
+16063072100   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16063734400   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16065642500   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16066338600   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16067196000   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16067873500   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16068546700   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16069174300   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16083103000   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16084149400   18446744073709551615: [entry] <executor::task_collection::TaskCollection>::generator::{closure#0}(ffffffc08020e6cc) depth: 1
+
+16085083600   18446744073709551615: [exit] <executor::task_collection::TaskCollection>::generator::{closure#0}(ffffffc08020e6cc) depth: 1
+
+16086090100   1073: [entry] <core::future::from_generator::GenFuture<zcore_loader::linux::run_user::{closure#0}> as core::future::future::Future>::poll(ffffffc0802d79b4) depth: 1
+
+16086978100   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16087867300   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16088555900   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16089595700   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16090379700   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16091106400   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16091565100   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16104660500   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16105095600   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16105550300   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16106029800   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16106495800   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16107035200   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16107920300   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16108522800   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16109251100   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16109841500   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16121557800   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16121915000   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16122388700   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16122719900   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16123161700   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16123464500   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16123794400   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16124085600   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16130331700   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16130724400   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16131182100   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16131492800   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16132298400   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16132669700   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16133066200   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16133388400   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16133714000   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16134001500   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16142754000   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16143207600   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16143675400   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16143985800   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16144416400   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16144725300   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16145066500   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16145336400   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16152882200   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16153285300   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16153731200   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16154040200   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16154658300   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16154941700   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16155405000   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16155720100   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16156218100   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16156740000   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16163514100   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16163867600   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16164630000   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16164958000   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16165567100   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16166055700   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16166753300   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16167099200   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16181474100   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16182255800   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16183181800   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16183788300   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16185739400   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16186336500   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16187051300   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16187545600   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16188090000   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16188647700   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16203728400   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16204448200   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16205469600   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16206148900   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16206993200   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16207612400   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16208286700   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16208880300   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16220379700   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16221308600   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16222333400   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16223142200   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16224748300   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16225428100   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16226200600   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16226525700   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16226844300   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16227122100   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16234359100   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16234717900   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16235149500   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16235680700   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16236368500   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16236793500   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16237134600   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16237421100   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16247818500   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16248563600   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16249284700   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16249734900   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16250495200   1073: [entry] <core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::read::{closure#0}> as core::future::future::Future>::poll(ffffffc08022e044) depth: 0
+
+16251100400   1073: [entry] <core::future::from_generator::GenFuture<<linux_object::fs::file::FileInner>::read_at::{closure#0}> as core::future::future::Future>::poll(ffffffc08022e2a4) depth: 0
+
+16251615800   1073: [exit] <core::future::from_generator::GenFuture<<linux_object::fs::file::FileInner>::read_at::{closure#0}> as core::future::future::Future>::poll(ffffffc08022e2a4) depth: 0
+
+16252164100   1073: [exit] <core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::read::{closure#0}> as core::future::future::Future>::poll(ffffffc08022e044) depth: 0
+
+16252716200   1073: [entry] core::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::read::{closure#0}>>(ffffffc0802254ae) depth: 0
+
+16253438100   1073: [exit] core::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::read::{closure#0}>>(ffffffc0802254ae) depth: 0
+
+16254024700   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16254661100   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16256637900   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16257224400   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16258001700   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16258650500   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16259353900   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16259932200   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16274267900   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16274951800   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16275808300   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16276447100   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16277354100   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16278007400   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16278712200   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16279354200   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16290066800   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16290771500   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16291718500   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16292305000   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16293263000   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16293624700   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16294103400   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16294484100   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16295037600   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16295385800   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16302717100   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16303360000   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16304179600   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16304776500   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16305600100   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16306165900   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16306800400   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16307340400   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16317714500   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16318344600   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16319097900   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16319769600   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16321707700   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16322366100   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16323171200   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16323756100   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16324470300   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16325125400   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16337174000   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16337937400   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16338405600   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16338678400   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16339080900   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16339383400   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16339719900   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16339975300   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16347162500   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16347529800   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16347930500   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16348238300   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16349283000   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16349626300   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16350404400   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16351079300   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16351436000   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16351718400   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16360485400   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16361256500   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16362315800   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16363058000   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16364017000   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16364680200   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16365441100   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16366151800   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16379908800   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16380597300   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16381461900   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16382175300   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16384284700   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16384960600   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16385939500   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16386282600   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16386670000   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16387221500   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16399318200   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16400134300   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16400804100   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16401384300   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16402221400   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16402624300   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16403042400   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16403458700   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16414530000   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16415195900   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16415803700   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16416131800   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16416483900   1073: [entry] <core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::read::{closure#0}> as core::future::future::Future>::poll(ffffffc08022e044) depth: 0
+
+16416840400   1073: [entry] <core::future::from_generator::GenFuture<<linux_object::fs::file::FileInner>::read_at::{closure#0}> as core::future::future::Future>::poll(ffffffc08022e2a4) depth: 0
+
+16417222800   1073: [exit] <core::future::from_generator::GenFuture<<linux_object::fs::file::FileInner>::read_at::{closure#0}> as core::future::future::Future>::poll(ffffffc08022e2a4) depth: 0
+
+16417530800   1073: [exit] <core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::read::{closure#0}> as core::future::future::Future>::poll(ffffffc08022e044) depth: 0
+
+16417855400   1073: [entry] core::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::read::{closure#0}>>(ffffffc0802254ae) depth: 0
+
+16418168400   1073: [exit] core::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::read::{closure#0}>>(ffffffc0802254ae) depth: 0
+
+16418487800   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16418795900   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16420384400   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16420703200   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16421096200   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16421381200   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16421696100   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16421976200   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16429280900   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16429640000   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16430033400   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16430370000   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16430968500   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16431277100   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16431585700   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16431854200   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16439063200   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16439397300   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16439787700   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16440088100   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16441065700   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16441353900   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16441774300   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16442082000   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16442392200   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16442661700   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16450790600   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16451388900   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16452261800   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16452585900   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16453340300   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16453645300   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16454100200   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16454409800   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16461359700   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16461708600   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16462107700   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16462375700   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16463324100   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16463619800   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16464021300   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16464429900   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16465081300   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16465762900   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16472817000   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16473170300   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16473649400   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16473988500   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16474430100   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16474716800   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16475032900   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16475311900   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16482370100   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16482675400   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16483151700   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16483451400   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16484012800   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16484309800   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16484696000   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16484979000   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16485336400   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16485617200   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16494595600   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16495291200   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16496170100   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16496748400   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16497596400   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16498220100   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16498981800   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16499562900   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16512011900   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16512402900   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16513092600   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16513592900   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16514667400   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16515234500   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16515883000   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16516418100   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16516918600   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16517349500   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16526596000   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16527062300   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16527561200   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16528032900   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16528777300   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16529419800   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16530117100   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16530737300   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16544954500   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16545637500   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16546624000   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16547251500   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16547935300   1073: [entry] <core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::read::{closure#0}> as core::future::future::Future>::poll(ffffffc08022e044) depth: 0
+
+16548623500   1073: [entry] <core::future::from_generator::GenFuture<<linux_object::fs::file::FileInner>::read_at::{closure#0}> as core::future::future::Future>::poll(ffffffc08022e2a4) depth: 0
+
+16549238500   1073: [exit] <core::future::from_generator::GenFuture<<linux_object::fs::file::FileInner>::read_at::{closure#0}> as core::future::future::Future>::poll(ffffffc08022e2a4) depth: 0
+
+16549613000   1073: [exit] <core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::read::{closure#0}> as core::future::future::Future>::poll(ffffffc08022e044) depth: 0
+
+16549922200   1073: [entry] core::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::read::{closure#0}>>(ffffffc0802254ae) depth: 0
+
+16550267200   1073: [exit] core::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::read::{closure#0}>>(ffffffc0802254ae) depth: 0
+
+16550588500   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16551101600   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16552280100   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16552678600   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16553181900   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16553526400   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16553903600   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16554199100   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16564574900   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16565124100   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16565760400   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16566540100   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16567072000   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16567426400   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16567779800   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16568272800   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16583398100   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16584208400   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16585351600   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16586082600   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16587082500   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16587742400   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16588745700   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16589529000   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16590388900   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16591134200   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16609011800   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16609854000   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16610949300   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16611633400   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16612641900   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16613327500   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16614110500   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16614785000   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16626311200   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16626700900   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16627193700   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16627518800   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16629843800   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16630272900   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16631007100   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16631712200   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16632326200   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16633103200   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16646994900   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16647595900   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16648380500   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16648954200   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16649670800   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16650227600   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16650959900   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16651501400   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16666569700   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16667274500   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16668041500   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16668643200   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16669973800   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16670514100   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16671418200   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16671950100   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16672629400   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16673250200   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16692060000   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16692417500   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16693244000   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16693876900   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16694734100   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16695412800   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16695842300   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16696177400   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16706547200   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16707073300   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16707681400   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16708298000   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16709594100   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16710169200   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16710884000   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16711425200   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16712030700   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16712639500   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16724886800   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16725767200   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16726848800   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16727541100   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16728541300   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16729315900   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16730084000   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16730919200   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16742640200   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16743081300   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16743701800   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16744083000   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16745007800   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16745394000   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16746469200   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16746962300   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16747463700   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16748130900   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16762026100   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16762429200   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16763188300   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16763599300   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16764061200   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16764380600   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16764735100   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16765048000   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16775721200   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16776170300   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16776967100   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16777301400   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16777630600   1073: [entry] <core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::read::{closure#0}> as core::future::future::Future>::poll(ffffffc08022e044) depth: 0
+
+16777950400   1073: [entry] <core::future::from_generator::GenFuture<<linux_object::fs::file::FileInner>::read_at::{closure#0}> as core::future::future::Future>::poll(ffffffc08022e2a4) depth: 0
+
+16778315700   1073: [exit] <core::future::from_generator::GenFuture<<linux_object::fs::file::FileInner>::read_at::{closure#0}> as core::future::future::Future>::poll(ffffffc08022e2a4) depth: 0
+
+16778605400   1073: [exit] <core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::read::{closure#0}> as core::future::future::Future>::poll(ffffffc08022e044) depth: 0
+
+16778905700   1073: [entry] core::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::read::{closure#0}>>(ffffffc0802254ae) depth: 0
+
+16779229700   1073: [exit] core::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::read::{closure#0}>>(ffffffc0802254ae) depth: 0
+
+16779545300   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16779883200   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16781109000   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16781455600   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16781914500   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16782294000   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16782629200   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16782925900   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16799313600   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16799933500   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16800867600   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16801419700   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16802129000   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16802638300   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16803282900   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16803803300   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16818957500   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16819298200   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16819694000   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16820075200   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16820877900   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16821234300   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16821660700   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16822109500   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16825427800   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16825850400   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16834114400   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16834738600   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16835296700   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16835759000   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16836167100   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16836448600   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16836794800   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16837139000   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16844181900   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16844536100   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16844930800   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16845234700   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16846291600   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16846681400   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16847109500   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16847438100   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16847763700   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16848049400   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16859184400   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16859988000   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16861011100   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16861742900   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16862680300   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16863728500   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16864451400   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16864923100   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16876419900   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16877270000   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16878357700   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16878988100   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16880156100   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16880911600   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16881907600   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16882236300   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16882546700   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16882817300   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16894801400   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16895673300   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16896515800   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16896918600   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16898066700   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16898746100   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16899155600   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16899581100   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16906177900   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16906916800   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16907862400   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16908593400   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16909792600   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16910693900   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16911487700   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16912054100   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16912633400   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16913143200   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16924022100   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16924639400   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16925748100   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16926473200   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16927684300   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16928467600   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16929161900   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16929562000   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16937541900   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16937927000   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16938380100   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16938726600   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16939688600   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16940039100   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16940536900   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16940871300   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16941320100   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16941750900   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16952641100   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16953398800   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16954015600   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16954409800   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16954868400   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16955508700   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16956056700   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16956451700   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16976401100   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16977061100   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16977914000   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16978462600   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16979079600   1073: [entry] <core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::read::{closure#0}> as core::future::future::Future>::poll(ffffffc08022e044) depth: 0
+
+16979807800   1073: [entry] <core::future::from_generator::GenFuture<<linux_object::fs::file::FileInner>::read_at::{closure#0}> as core::future::future::Future>::poll(ffffffc08022e2a4) depth: 0
+
+16980416900   1073: [exit] <core::future::from_generator::GenFuture<<linux_object::fs::file::FileInner>::read_at::{closure#0}> as core::future::future::Future>::poll(ffffffc08022e2a4) depth: 0
+
+16981089300   1073: [exit] <core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::read::{closure#0}> as core::future::future::Future>::poll(ffffffc08022e044) depth: 0
+
+16981626200   1073: [entry] core::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::read::{closure#0}>>(ffffffc0802254ae) depth: 0
+
+16982302000   1073: [exit] core::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::read::{closure#0}>>(ffffffc0802254ae) depth: 0
+
+16982907400   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16983504900   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16985303500   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16986035100   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16987003600   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16987853400   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16988555700   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+16989198700   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+17007295300   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+17007751600   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+17008252000   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+17008615800   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+17009269700   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+17009711000   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+17010120000   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+17010476400   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+17024816100   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+17025561200   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+17026446400   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+17027089600   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+17028916400   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+17029639200   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+17030308600   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+17030754000   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+17031117900   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+17031408300   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+17038751000   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+17039146000   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+17039599700   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+17039901600   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+17040286300   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+17040578400   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+17040902200   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+17041189800   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+17049138700   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+17049975300   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+17050915100   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+17051322200   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+17053073600   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+17053700100   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+17054463400   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+17055043500   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+17055742900   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+17056320900   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+17068876600   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+17069573100   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+17070478600   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+17071127900   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+17071914700   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+17072226400   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+17072523800   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+17072803100   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+17081065200   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+17081786300   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+17082645900   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+17083376400   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+17084877000   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+17085518500   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+17086497400   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 2
+
+17087250700   1073: [exit] <core::future::from_generator::GenFuture<zcore_loader::linux::run_user::{closure#0}> as core::future::future::Future>::poll(ffffffc0802d79b4) depth: 1
+
+17087837600   18446744073709551615: [entry] <executor::task_collection::TaskCollection>::generator::{closure#0}(ffffffc08020e6cc) depth: 1
+
+17088643400   18446744073709551615: [exit] <executor::task_collection::TaskCollection>::generator::{closure#0}(ffffffc08020e6cc) depth: 1
+
+17089450100   18446744073709551615: [entry] <zircon_object::task::thread::ThreadSwitchFuture as core::future::future::Future>::poll(ffffffc0802f482e) depth: 0
+
+17090436700   1073: [entry] <core::future::from_generator::GenFuture<zcore_loader::linux::run_user::{closure#0}> as core::future::future::Future>::poll(ffffffc0802d79b4) depth: 1
+
+17091081700   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 0
+
+17091892700   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 0
+
+17092452500   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 0
+
+17108877600   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 0
+
+17109491100   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 0
+
+17110431800   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 0
+
+17111043500   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 0
+
+17111967400   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 0
+
+17112676800   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 0
+
+17113367800   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 0
+
+17114009900   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 0
+
+17126712900   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 0
+
+17127681000   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 0
+
+17128638600   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 0
+
+17129362900   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 0
+
+17131403300   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 0
+
+17132137300   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 0
+
+17133034900   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 0
+
+17133775100   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 0
+
+17134518000   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 0
+
+17134881700   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 0
+
+17142396200   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 0
+
+17143184000   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 0
+
+17143694600   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 0
+
+17143994100   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 0
+
+17144388500   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 0
+
+17144677900   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 0
+
+17144999100   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 0
+
+17145282300   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 0
+
+17152691400   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 0
+
+17153035000   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 0
+
+17153414200   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 0
+
+17153749200   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 0
+
+17154049100   1073: [entry] <core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::read::{closure#0}> as core::future::future::Future>::poll(ffffffc08022e044) depth: 0
+
+17154320500   1073: [entry] <core::future::from_generator::GenFuture<<linux_object::fs::file::FileInner>::read_at::{closure#0}> as core::future::future::Future>::poll(ffffffc08022e2a4) depth: 0
+
+17154636800   1073: [exit] <core::future::from_generator::GenFuture<<linux_object::fs::file::FileInner>::read_at::{closure#0}> as core::future::future::Future>::poll(ffffffc08022e2a4) depth: 0
+
+17154908300   1073: [exit] <core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::read::{closure#0}> as core::future::future::Future>::poll(ffffffc08022e044) depth: 0
+
+17155241900   1073: [entry] core::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::read::{closure#0}>>(ffffffc0802254ae) depth: 0
+
+17155604600   1073: [exit] core::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::read::{closure#0}>>(ffffffc0802254ae) depth: 0
+
+17156195200   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 0
+
+17157313400   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 0
+
+17158119200   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 0
+
+17159287300   1073: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 0
+
+17159980500   1073: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 0
+
+17160755500   18446744073709551615: [entry] <zircon_object::task::process::Process as linux_object::process::ProcessExt>::fork_from::{closure#0}(ffffffc08023e332) depth: 2
+
+17161669900   18446744073709551615: [entry] <<dyn zircon_object::object::KernelObject>::wait_signal::SignalFuture as core::future::future::Future>::poll::{closure#0}(ffffffc0802ebaf2) depth: 0
+
+17162142300   18446744073709551615: [exit] <<dyn zircon_object::object::KernelObject>::wait_signal::SignalFuture as core::future::future::Future>::poll::{closure#0}(ffffffc0802ebaf2) depth: 0
+
+17162727900   18446744073709551615: [entry] core::ptr::drop_in_place::<<<linux_syscall::Syscall>::sys_select::{closure#0}::SelectFuture as core::future::future::Future>::poll::{closure#0}>(ffffffc08027285c) depth: 0
+
+17163557500   18446744073709551615: [exit] core::ptr::drop_in_place::<<<linux_syscall::Syscall>::sys_select::{closure#0}::SelectFuture as core::future::future::Future>::poll::{closure#0}>(ffffffc08027285c) depth: 0
+
+17164311800   18446744073709551615: [exit] <zircon_object::task::process::Process as linux_object::process::ProcessExt>::fork_from::{closure#0}(ffffffc08023e332) depth: 2
+
+17164988900   18446744073709551615: [exit] <core::future::from_generator::GenFuture<zcore_loader::linux::run_user::{closure#0}> as core::future::future::Future>::poll(ffffffc0802d79b4) depth: 1
+
+17165330200   18446744073709551615: [exit] <zircon_object::task::thread::ThreadSwitchFuture as core::future::future::Future>::poll(ffffffc0802f482e) depth: 0
+
+17165722900   18446744073709551615: [entry] <executor::task_collection::TaskCollection>::generator::{closure#0}(ffffffc08020e6cc) depth: 1
+
+17166066800   18446744073709551615: [exit] <executor::task_collection::TaskCollection>::generator::{closure#0}(ffffffc08020e6cc) depth: 1
+
+17166405000   18446744073709551615: [entry] <zircon_object::task::thread::ThreadSwitchFuture as core::future::future::Future>::poll(ffffffc0802f482e) depth: 0
+
+17166854400   1028: [entry] <core::future::from_generator::GenFuture<zcore_loader::linux::run_user::{closure#0}> as core::future::future::Future>::poll(ffffffc0802d79b4) depth: 1
+
+17167210600   1028: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 0
+
+17167647900   1028: [entry] <<dyn zircon_object::object::KernelObject>::wait_signal::SignalFuture as core::future::future::Future>::poll(ffffffc0802eb9fa) depth: 0
+
+17168140100   1028: [exit] <<dyn zircon_object::object::KernelObject>::wait_signal::SignalFuture as core::future::future::Future>::poll(ffffffc0802eb9fa) depth: 0
+
+17168456100   1028: [exit] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 0
+
+17168788600   1028: [entry] <linux_syscall::Syscall>::syscall::{closure#0}(ffffffc0802d90ba) depth: 0

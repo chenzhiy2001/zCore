@@ -6,7 +6,7 @@ How to Run
 3. cargo other-test --arch=riscv64
 4. rm async.log
 5. cargo qemu --arch=riscv64 | tee >(sed $'s/\033[[][^A-Za-z]*[A-Za-z]//g' > async.log)
-6. python3 dump.py > dumped_data.txt
+6. python3 dump.py
 
 
 
@@ -32,3 +32,27 @@ reading 5257.dat
 408.532243204   5257: [exit ] once_cell::imp::initialize_or_wait::_{{closure}}(636a05068c15) depth: 1
 
 D. [tool from the paper] post-process, see paper
+
+
+FAQ
+=============
+```
+Python Exception <class 'gdb.error'>: That operation is not available on integers of more than 8 bytes.
+Error occurred in Python: That operation is not available on integers of more than 8 bytes.
+```
+It's a GDB bug fixed recently. See https://github.com/pwndbg/pwndbg/issues/2080. So you need to update GDB to the newest version.
+
+If you obtain GDB from `riscv-collab/riscv-gnu-toolchain` and failed updating submodule using `sudo git submodule update --remote`, you have to DELETE LOCAL REPO and do this
+```
+ # you must delete the original repo 
+ rm -rf riscv-gnu-toolchain/
+ git clone https://github.com/riscv-collab/riscv-gnu-toolchain
+ cd riscv-gnu-toolchain/
+ sed -i '/shallow = true/d' .gitmodules
+ sed -i 's/--depth 1//g' Makefile.in
+ ./configure --prefix=/opt/riscv
+ sudo make
+```
+this painful process is caused by a bug of riscv toolchain repo. see https://github.com/riscv-collab/riscv-gnu-toolchain/issues/1669
+
+If cloning the `riscv-collab/riscv-gnu-toolchain` repo become slow when using a proxy, try TUN mode instead of system proxy/PAC mode and use nodes in the US.
