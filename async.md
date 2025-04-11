@@ -40,9 +40,15 @@ FAQ
 Python Exception <class 'gdb.error'>: That operation is not available on integers of more than 8 bytes.
 Error occurred in Python: That operation is not available on integers of more than 8 bytes.
 ```
-It's a GDB bug fixed recently. See https://github.com/pwndbg/pwndbg/issues/2080. So you need to update GDB to the newest version.
+It's a GDB bug fixed recently. See https://github.com/pwndbg/pwndbg/issues/2080. 
 
-If you obtain GDB from `riscv-collab/riscv-gnu-toolchain` and failed updating submodule using `sudo git submodule update --remote`, you have to DELETE LOCAL REPO and do this
+Download the patch at https://sourceware.org/git/?p=binutils-gdb.git;a=patch;h=6eb63917ce17236f0189e8d7ff4b60e24741770b
+
+Then in riscv-gnu-toolchain/gdb, do `git apply <your_patch_file>`
+
+If the patch failed, you need to update GDB to the newest version.
+
+If you obtain GDB from `riscv-collab/riscv-gnu-toolchain` and failed updating submodules using `sudo git submodule update --remote`, you have to DELETE LOCAL REPO and do this
 ```
  # you must delete the original repo 
  rm -rf riscv-gnu-toolchain/
@@ -52,7 +58,10 @@ If you obtain GDB from `riscv-collab/riscv-gnu-toolchain` and failed updating su
  sed -i 's/--depth 1//g' Makefile.in
  ./configure --prefix=/opt/riscv
  sudo make
+ sudo git submodule update --remote
+ ./configure --prefix=/opt/riscv
+ sudo make
 ```
 this painful process is caused by a bug of riscv toolchain repo. see https://github.com/riscv-collab/riscv-gnu-toolchain/issues/1669
 
-If cloning the `riscv-collab/riscv-gnu-toolchain` repo become slow when using a proxy, try TUN mode instead of system proxy/PAC mode and use nodes in the US.
+If cloning the `riscv-collab/riscv-gnu-toolchain` repo become slow when using a proxy, try TUN mode instead of system proxy/PAC mode and use nodes in the United States (where gcc source code repo is located).

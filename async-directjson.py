@@ -1,9 +1,11 @@
+import json
 import gdb
 import os
 import time # BUG: This is system time, not debugee time!
 
 project_root = "."
 result=[] # array of strings
+result_object=[] # array of objects
 # result.append("time   thread_id: [entry/exit] FUNCTION_NAME(FUNCTION_ADDR?PC=0x00000000) depth: 0")
 # command for logging at function entry
 class FunctionEntryLogger(gdb.Command):
@@ -22,7 +24,17 @@ class FunctionEntryLogger(gdb.Command):
         while frame is not None:
             self.depth += 1
             frame = frame.older()
-        result.append(f"{timestamp:.6f}   {thread_id}: [entry] {self.func_name}({self.addr}) depth: {self.depth}")
+        # result.append(f"{timestamp:.6f}   {thread_id}: [entry] {self.func_name}({self.addr}) depth: {self.depth}")
+        result_object.append(
+            {
+                "time": timestamp,
+                "thread_id": thread_id,
+                "entry_exit": "entry",
+                "fn_name": self.func_name,
+                "addr": self.addr,
+                "depth": self.depth
+            }
+        )
 
 # not used
 class FunctionExitLogger(gdb.Command):
@@ -63,7 +75,15 @@ class FunctionReturnBreakpoint(gdb.FinishBreakpoint):
         while frame is not None:
             self.depth += 1
             frame = frame.older()
-        result.append(f"{timestamp:.6f}   {thread_id}: [exit ] {self.func_name}({self.addr}) depth: {self.depth+1}") # depth + 1 because this is a return breakpoint, you already popped the frame
+        # result.append(f"{timestamp:.6f}   {thread_id}: [exit ] {self.func_name}({self.addr}) depth: {self.depth+1}") # depth + 1 because this is a return breakpoint, you already popped the frame
+        result_object.append({
+            "time": timestamp,
+            "thread_id": thread_id,
+            "entry_exit": "exit ",
+            "fn_name": self.func_name,
+            "addr": self.addr,
+            "depth": self.depth+1
+        })
 
 class RegisterFunctionReturnBreakpoint(gdb.Command):
     def __init__(self):
@@ -78,11 +98,35 @@ class DumpAsyncLog(gdb.Command):
     def __init__(self):
         super().__init__("dump_async_log", gdb.COMMAND_USER)
     def invoke(self, arg, from_tty):
-        # convert the result array as string separated by \n 
-        result_str = "\n".join(result)
-        # save result_str to file
-        with open("async.log", "w") as f:
-            f.write(result_str)
+        trace_events = []
+        for entry in result_object:
+            ts = entry["time"]
+            ph = "B" if entry["entry_exit"] == "entry" else "E"
+            pid = str(entry["thread_id"])
+            tid = f" {entry['thread_id']}"
+            name = entry["fn_name"]
+            args = {"Function address (For recognizing anonymous type)": f"0x{entry['addr']}"}
+
+            trace_event = {
+                "ts": ts,
+                "ph": ph,
+                "pid": pid,
+                "tid": tid,
+                "name": name,
+            }
+
+            if ph == "E":
+                trace_event["args"] = args
+
+            trace_events.append(trace_event)
+
+        output = {
+            "traceEvents": trace_events,
+            "displayTimeUnit": "ms"
+        }
+
+        with open("output-directjson.json", "w") as json_file:
+            json.dump(output, json_file, indent=4)
 
 def get_addr_and_func_name(line:str)->tuple[str, str]:
     parts = line.split()

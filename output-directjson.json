@@ -1,0 +1,4349 @@
+{
+    "traceEvents": [
+        {
+            "ts": 1744349307.0351083,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<dtb_walker::walker::Walker>::walk_inner::<zcore::platform::arch::entry::boot_secondary_harts::{closure#0}>"
+        },
+        {
+            "ts": 1744349307.1067855,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<dtb_walker::walker::Walker>::walk_inner::<zcore::platform::arch::entry::boot_secondary_harts::{closure#0}>"
+        },
+        {
+            "ts": 1744349307.1670535,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<dtb_walker::walker::Walker>::walk_inner::<zcore::platform::arch::entry::boot_secondary_harts::{closure#0}>"
+        },
+        {
+            "ts": 1744349307.2001424,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<dtb_walker::walker::Walker>::walk_inner::<zcore::platform::arch::entry::boot_secondary_harts::{closure#0}>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981937842"
+            }
+        },
+        {
+            "ts": 1744349307.2220824,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<dtb_walker::walker::Walker>::walk_inner::<zcore::platform::arch::entry::boot_secondary_harts::{closure#0}>"
+        },
+        {
+            "ts": 1744349307.2512147,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<dtb_walker::walker::Walker>::walk_inner::<zcore::platform::arch::entry::boot_secondary_harts::{closure#0}>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981937842"
+            }
+        },
+        {
+            "ts": 1744349307.2528996,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<dtb_walker::walker::Walker>::walk_inner::<zcore::platform::arch::entry::boot_secondary_harts::{closure#0}>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981938234"
+            }
+        },
+        {
+            "ts": 1744349307.2734647,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<dtb_walker::walker::Walker>::walk_inner::<zcore::platform::arch::entry::boot_secondary_harts::{closure#0}>"
+        },
+        {
+            "ts": 1744349307.3202085,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<dtb_walker::walker::Walker>::walk_inner::<zcore::platform::arch::entry::boot_secondary_harts::{closure#0}>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981938234"
+            }
+        },
+        {
+            "ts": 1744349307.3447206,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<dtb_walker::walker::Walker>::walk_inner::<zcore::platform::arch::entry::boot_secondary_harts::{closure#0}>"
+        },
+        {
+            "ts": 1744349307.3789911,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<dtb_walker::walker::Walker>::walk_inner::<zcore::platform::arch::entry::boot_secondary_harts::{closure#0}>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981938234"
+            }
+        },
+        {
+            "ts": 1744349307.4033675,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<dtb_walker::walker::Walker>::walk_inner::<zcore::platform::arch::entry::boot_secondary_harts::{closure#0}>"
+        },
+        {
+            "ts": 1744349307.4659696,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<dtb_walker::walker::Walker>::walk_inner::<zcore::platform::arch::entry::boot_secondary_harts::{closure#0}>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981938234"
+            }
+        },
+        {
+            "ts": 1744349307.4965682,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<dtb_walker::walker::Walker>::walk_inner::<zcore::platform::arch::entry::boot_secondary_harts::{closure#0}>"
+        },
+        {
+            "ts": 1744349307.5446432,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<dtb_walker::walker::Walker>::walk_inner::<zcore::platform::arch::entry::boot_secondary_harts::{closure#0}>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981938234"
+            }
+        },
+        {
+            "ts": 1744349307.5715535,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<dtb_walker::walker::Walker>::walk_inner::<zcore::platform::arch::entry::boot_secondary_harts::{closure#0}>"
+        },
+        {
+            "ts": 1744349307.6355207,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<dtb_walker::walker::Walker>::walk_inner::<zcore::platform::arch::entry::boot_secondary_harts::{closure#0}>"
+        },
+        {
+            "ts": 1744349307.6990013,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<dtb_walker::walker::Walker>::walk_inner::<zcore::platform::arch::entry::boot_secondary_harts::{closure#0}>"
+        },
+        {
+            "ts": 1744349307.7442172,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<dtb_walker::walker::Walker>::walk_inner::<zcore::platform::arch::entry::boot_secondary_harts::{closure#0}>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981938234"
+            }
+        },
+        {
+            "ts": 1744349307.7486992,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<dtb_walker::walker::Walker>::walk_inner::<zcore::platform::arch::entry::boot_secondary_harts::{closure#0}>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981938234"
+            }
+        },
+        {
+            "ts": 1744349307.7748802,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<dtb_walker::walker::Walker>::walk_inner::<zcore::platform::arch::entry::boot_secondary_harts::{closure#0}>"
+        },
+        {
+            "ts": 1744349307.848184,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<dtb_walker::walker::Walker>::walk_inner::<zcore::platform::arch::entry::boot_secondary_harts::{closure#0}>"
+        },
+        {
+            "ts": 1744349307.9252806,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<dtb_walker::walker::Walker>::walk_inner::<zcore::platform::arch::entry::boot_secondary_harts::{closure#0}>"
+        },
+        {
+            "ts": 1744349307.9717875,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<dtb_walker::walker::Walker>::walk_inner::<zcore::platform::arch::entry::boot_secondary_harts::{closure#0}>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981937842"
+            }
+        },
+        {
+            "ts": 1744349307.9765315,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<dtb_walker::walker::Walker>::walk_inner::<zcore::platform::arch::entry::boot_secondary_harts::{closure#0}>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981937842"
+            }
+        },
+        {
+            "ts": 1744349307.9798286,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<dtb_walker::walker::Walker>::walk_inner::<zcore::platform::arch::entry::boot_secondary_harts::{closure#0}>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981938234"
+            }
+        },
+        {
+            "ts": 1744349307.9835446,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<dtb_walker::walker::Walker>::walk_inner::<zcore::platform::arch::entry::boot_secondary_harts::{closure#0}>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981938234"
+            }
+        },
+        {
+            "ts": 1744349307.9902313,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<dtb_walker::walker::Walker>::walk_inner::<zcore::platform::arch::entry::boot_secondary_harts::{closure#0}>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981928924"
+            }
+        },
+        {
+            "ts": 1744349308.203375,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<str>::trim_matches::<<str>::trim::{closure#0}>"
+        },
+        {
+            "ts": 1744349308.275431,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<str>::trim_matches::<<str>::trim::{closure#0}>"
+        },
+        {
+            "ts": 1744349308.36095,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<str>::trim_matches::<<str>::trim::{closure#0}>"
+        },
+        {
+            "ts": 1744349308.5230052,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<str>::trim_matches::<<str>::trim::{closure#0}>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981294346"
+            }
+        },
+        {
+            "ts": 1744349308.5235534,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<str>::trim_matches::<<str>::trim::{closure#0}>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981294346"
+            }
+        },
+        {
+            "ts": 1744349308.5237913,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<str>::trim_matches::<<str>::trim::{closure#0}>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981294346"
+            }
+        },
+        {
+            "ts": 1744349308.5238428,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<str>::trim_matches::<<str>::trim::{closure#0}>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981294346"
+            }
+        },
+        {
+            "ts": 1744349308.5239089,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<str>::trim_matches::<<str>::trim::{closure#0}>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981294346"
+            }
+        },
+        {
+            "ts": 1744349308.5239496,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<str>::trim_matches::<<str>::trim::{closure#0}>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981294346"
+            }
+        },
+        {
+            "ts": 1744349308.524026,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "kernel_hal::imp::arch::vm::init_kernel_page_table::{closure#0}"
+        },
+        {
+            "ts": 1744349308.5875614,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "kernel_hal::imp::arch::vm::init_kernel_page_table::{closure#0}",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981339876"
+            }
+        },
+        {
+            "ts": 1744349308.7157784,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<zcore_drivers::utils::devicetree::Devicetree>::walk_inner::<<zcore_drivers::builder::devicetree::DevicetreeDriverBuilder<kernel_hal::imp::arch::drivers::IoMapperImpl>>::build::{closure#0}>"
+        },
+        {
+            "ts": 1744349308.8388858,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<zcore_drivers::utils::devicetree::Devicetree>::walk_inner::<<zcore_drivers::builder::devicetree::DevicetreeDriverBuilder<kernel_hal::imp::arch::drivers::IoMapperImpl>>::build::{closure#0}>"
+        },
+        {
+            "ts": 1744349308.9262867,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<zcore_drivers::utils::devicetree::Devicetree>::walk_inner::<<zcore_drivers::builder::devicetree::DevicetreeDriverBuilder<kernel_hal::imp::arch::drivers::IoMapperImpl>>::build::{closure#0}>"
+        },
+        {
+            "ts": 1744349308.971884,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<zcore_drivers::utils::devicetree::Devicetree>::walk_inner::<<zcore_drivers::builder::devicetree::DevicetreeDriverBuilder<kernel_hal::imp::arch::drivers::IoMapperImpl>>::build::{closure#0}>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981297728"
+            }
+        },
+        {
+            "ts": 1744349309.0010548,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<zcore_drivers::utils::devicetree::Devicetree>::walk_inner::<<zcore_drivers::builder::devicetree::DevicetreeDriverBuilder<kernel_hal::imp::arch::drivers::IoMapperImpl>>::build::{closure#0}>"
+        },
+        {
+            "ts": 1744349309.0384693,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<zcore_drivers::utils::devicetree::Devicetree>::walk_inner::<<zcore_drivers::builder::devicetree::DevicetreeDriverBuilder<kernel_hal::imp::arch::drivers::IoMapperImpl>>::build::{closure#0}>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981297728"
+            }
+        },
+        {
+            "ts": 1744349309.041685,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<zcore_drivers::utils::devicetree::Devicetree>::walk_inner::<<zcore_drivers::builder::devicetree::DevicetreeDriverBuilder<kernel_hal::imp::arch::drivers::IoMapperImpl>>::build::{closure#0}>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981297728"
+            }
+        },
+        {
+            "ts": 1744349309.0672817,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<zcore_drivers::utils::devicetree::Devicetree>::walk_inner::<<zcore_drivers::builder::devicetree::DevicetreeDriverBuilder<kernel_hal::imp::arch::drivers::IoMapperImpl>>::build::{closure#0}>"
+        },
+        {
+            "ts": 1744349309.1055927,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<zcore_drivers::utils::devicetree::Devicetree>::walk_inner::<<zcore_drivers::builder::devicetree::DevicetreeDriverBuilder<kernel_hal::imp::arch::drivers::IoMapperImpl>>::build::{closure#0}>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981297728"
+            }
+        },
+        {
+            "ts": 1744349309.1299067,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<zcore_drivers::utils::devicetree::Devicetree>::walk_inner::<<zcore_drivers::builder::devicetree::DevicetreeDriverBuilder<kernel_hal::imp::arch::drivers::IoMapperImpl>>::build::{closure#0}>"
+        },
+        {
+            "ts": 1744349309.1865025,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<zcore_drivers::utils::devicetree::Devicetree>::walk_inner::<<zcore_drivers::builder::devicetree::DevicetreeDriverBuilder<kernel_hal::imp::arch::drivers::IoMapperImpl>>::build::{closure#0}>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981297728"
+            }
+        },
+        {
+            "ts": 1744349309.2141752,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<zcore_drivers::utils::devicetree::Devicetree>::walk_inner::<<zcore_drivers::builder::devicetree::DevicetreeDriverBuilder<kernel_hal::imp::arch::drivers::IoMapperImpl>>::build::{closure#0}>"
+        },
+        {
+            "ts": 1744349309.25664,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<zcore_drivers::utils::devicetree::Devicetree>::walk_inner::<<zcore_drivers::builder::devicetree::DevicetreeDriverBuilder<kernel_hal::imp::arch::drivers::IoMapperImpl>>::build::{closure#0}>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981297728"
+            }
+        },
+        {
+            "ts": 1744349309.302665,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<zcore_drivers::utils::devicetree::Devicetree>::walk_inner::<<zcore_drivers::builder::devicetree::DevicetreeDriverBuilder<kernel_hal::imp::arch::drivers::IoMapperImpl>>::build::{closure#0}>"
+        },
+        {
+            "ts": 1744349309.3943737,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<zcore_drivers::utils::devicetree::Devicetree>::walk_inner::<<zcore_drivers::builder::devicetree::DevicetreeDriverBuilder<kernel_hal::imp::arch::drivers::IoMapperImpl>>::build::{closure#0}>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981297728"
+            }
+        },
+        {
+            "ts": 1744349309.4302416,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<zcore_drivers::utils::devicetree::Devicetree>::walk_inner::<<zcore_drivers::builder::devicetree::DevicetreeDriverBuilder<kernel_hal::imp::arch::drivers::IoMapperImpl>>::build::{closure#0}>"
+        },
+        {
+            "ts": 1744349309.484282,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<zcore_drivers::utils::devicetree::Devicetree>::walk_inner::<<zcore_drivers::builder::devicetree::DevicetreeDriverBuilder<kernel_hal::imp::arch::drivers::IoMapperImpl>>::build::{closure#0}>"
+        },
+        {
+            "ts": 1744349309.5443418,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<zcore_drivers::utils::devicetree::Devicetree>::walk_inner::<<zcore_drivers::builder::devicetree::DevicetreeDriverBuilder<kernel_hal::imp::arch::drivers::IoMapperImpl>>::build::{closure#0}>"
+        },
+        {
+            "ts": 1744349309.595451,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<zcore_drivers::utils::devicetree::Devicetree>::walk_inner::<<zcore_drivers::builder::devicetree::DevicetreeDriverBuilder<kernel_hal::imp::arch::drivers::IoMapperImpl>>::build::{closure#0}>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981297728"
+            }
+        },
+        {
+            "ts": 1744349309.6019557,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<zcore_drivers::utils::devicetree::Devicetree>::walk_inner::<<zcore_drivers::builder::devicetree::DevicetreeDriverBuilder<kernel_hal::imp::arch::drivers::IoMapperImpl>>::build::{closure#0}>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981297728"
+            }
+        },
+        {
+            "ts": 1744349309.6375754,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<zcore_drivers::utils::devicetree::Devicetree>::walk_inner::<<zcore_drivers::builder::devicetree::DevicetreeDriverBuilder<kernel_hal::imp::arch::drivers::IoMapperImpl>>::build::{closure#0}>"
+        },
+        {
+            "ts": 1744349309.7165883,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<zcore_drivers::utils::devicetree::Devicetree>::walk_inner::<<zcore_drivers::builder::devicetree::DevicetreeDriverBuilder<kernel_hal::imp::arch::drivers::IoMapperImpl>>::build::{closure#0}>"
+        },
+        {
+            "ts": 1744349309.8267775,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<zcore_drivers::utils::devicetree::Devicetree>::walk_inner::<<zcore_drivers::builder::devicetree::DevicetreeDriverBuilder<kernel_hal::imp::arch::drivers::IoMapperImpl>>::build::{closure#0}>"
+        },
+        {
+            "ts": 1744349309.8621273,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<zcore_drivers::utils::devicetree::Devicetree>::walk_inner::<<zcore_drivers::builder::devicetree::DevicetreeDriverBuilder<kernel_hal::imp::arch::drivers::IoMapperImpl>>::build::{closure#0}>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981297728"
+            }
+        },
+        {
+            "ts": 1744349309.8660069,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<zcore_drivers::utils::devicetree::Devicetree>::walk_inner::<<zcore_drivers::builder::devicetree::DevicetreeDriverBuilder<kernel_hal::imp::arch::drivers::IoMapperImpl>>::build::{closure#0}>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981297728"
+            }
+        },
+        {
+            "ts": 1744349309.869896,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<zcore_drivers::utils::devicetree::Devicetree>::walk_inner::<<zcore_drivers::builder::devicetree::DevicetreeDriverBuilder<kernel_hal::imp::arch::drivers::IoMapperImpl>>::build::{closure#0}>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981297728"
+            }
+        },
+        {
+            "ts": 1744349309.8732586,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<zcore_drivers::utils::devicetree::Devicetree>::walk_inner::<<zcore_drivers::builder::devicetree::DevicetreeDriverBuilder<kernel_hal::imp::arch::drivers::IoMapperImpl>>::build::{closure#0}>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981297728"
+            }
+        },
+        {
+            "ts": 1744349309.894448,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<zcore_drivers::utils::devicetree::Devicetree>::walk_inner::<<zcore_drivers::builder::devicetree::DevicetreeDriverBuilder<kernel_hal::imp::arch::drivers::IoMapperImpl>>::build::{closure#0}>"
+        },
+        {
+            "ts": 1744349309.9238987,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<zcore_drivers::utils::devicetree::Devicetree>::walk_inner::<<zcore_drivers::builder::devicetree::DevicetreeDriverBuilder<kernel_hal::imp::arch::drivers::IoMapperImpl>>::build::{closure#0}>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981297728"
+            }
+        },
+        {
+            "ts": 1744349309.9471283,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<zcore_drivers::utils::devicetree::Devicetree>::walk_inner::<<zcore_drivers::builder::devicetree::DevicetreeDriverBuilder<kernel_hal::imp::arch::drivers::IoMapperImpl>>::build::{closure#0}>"
+        },
+        {
+            "ts": 1744349309.9948869,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<zcore_drivers::utils::devicetree::Devicetree>::walk_inner::<<zcore_drivers::builder::devicetree::DevicetreeDriverBuilder<kernel_hal::imp::arch::drivers::IoMapperImpl>>::build::{closure#0}>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981297728"
+            }
+        },
+        {
+            "ts": 1744349310.033748,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<zcore_drivers::utils::devicetree::Devicetree>::walk_inner::<<zcore_drivers::builder::devicetree::DevicetreeDriverBuilder<kernel_hal::imp::arch::drivers::IoMapperImpl>>::build::{closure#0}>"
+        },
+        {
+            "ts": 1744349310.0948915,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<zcore_drivers::utils::devicetree::Devicetree>::walk_inner::<<zcore_drivers::builder::devicetree::DevicetreeDriverBuilder<kernel_hal::imp::arch::drivers::IoMapperImpl>>::build::{closure#0}>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981297728"
+            }
+        },
+        {
+            "ts": 1744349310.1312559,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<zcore_drivers::utils::devicetree::Devicetree>::walk_inner::<<zcore_drivers::builder::devicetree::DevicetreeDriverBuilder<kernel_hal::imp::arch::drivers::IoMapperImpl>>::build::{closure#0}>"
+        },
+        {
+            "ts": 1744349310.1849363,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<zcore_drivers::utils::devicetree::Devicetree>::walk_inner::<<zcore_drivers::builder::devicetree::DevicetreeDriverBuilder<kernel_hal::imp::arch::drivers::IoMapperImpl>>::build::{closure#0}>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981297728"
+            }
+        },
+        {
+            "ts": 1744349310.2243629,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<zcore_drivers::utils::devicetree::Devicetree>::walk_inner::<<zcore_drivers::builder::devicetree::DevicetreeDriverBuilder<kernel_hal::imp::arch::drivers::IoMapperImpl>>::build::{closure#0}>"
+        },
+        {
+            "ts": 1744349310.3344102,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<zcore_drivers::utils::devicetree::Devicetree>::walk_inner::<<zcore_drivers::builder::devicetree::DevicetreeDriverBuilder<kernel_hal::imp::arch::drivers::IoMapperImpl>>::build::{closure#0}>"
+        },
+        {
+            "ts": 1744349310.3961024,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<zcore_drivers::utils::devicetree::Devicetree>::walk_inner::<<zcore_drivers::builder::devicetree::DevicetreeDriverBuilder<kernel_hal::imp::arch::drivers::IoMapperImpl>>::build::{closure#0}>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981297728"
+            }
+        },
+        {
+            "ts": 1744349310.4419465,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<zcore_drivers::utils::devicetree::Devicetree>::walk_inner::<<zcore_drivers::builder::devicetree::DevicetreeDriverBuilder<kernel_hal::imp::arch::drivers::IoMapperImpl>>::build::{closure#0}>"
+        },
+        {
+            "ts": 1744349310.5109966,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<zcore_drivers::utils::devicetree::Devicetree>::walk_inner::<<zcore_drivers::builder::devicetree::DevicetreeDriverBuilder<kernel_hal::imp::arch::drivers::IoMapperImpl>>::build::{closure#0}>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981297728"
+            }
+        },
+        {
+            "ts": 1744349310.5414534,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<zcore_drivers::utils::devicetree::Devicetree>::walk_inner::<<zcore_drivers::builder::devicetree::DevicetreeDriverBuilder<kernel_hal::imp::arch::drivers::IoMapperImpl>>::build::{closure#0}>"
+        },
+        {
+            "ts": 1744349310.5848315,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<zcore_drivers::utils::devicetree::Devicetree>::walk_inner::<<zcore_drivers::builder::devicetree::DevicetreeDriverBuilder<kernel_hal::imp::arch::drivers::IoMapperImpl>>::build::{closure#0}>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981297728"
+            }
+        },
+        {
+            "ts": 1744349310.6100814,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<zcore_drivers::utils::devicetree::Devicetree>::walk_inner::<<zcore_drivers::builder::devicetree::DevicetreeDriverBuilder<kernel_hal::imp::arch::drivers::IoMapperImpl>>::build::{closure#0}>"
+        },
+        {
+            "ts": 1744349310.6515927,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<zcore_drivers::utils::devicetree::Devicetree>::walk_inner::<<zcore_drivers::builder::devicetree::DevicetreeDriverBuilder<kernel_hal::imp::arch::drivers::IoMapperImpl>>::build::{closure#0}>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981297728"
+            }
+        },
+        {
+            "ts": 1744349310.6850715,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<zcore_drivers::utils::devicetree::Devicetree>::walk_inner::<<zcore_drivers::builder::devicetree::DevicetreeDriverBuilder<kernel_hal::imp::arch::drivers::IoMapperImpl>>::build::{closure#0}>"
+        },
+        {
+            "ts": 1744349310.735101,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<zcore_drivers::utils::devicetree::Devicetree>::walk_inner::<<zcore_drivers::builder::devicetree::DevicetreeDriverBuilder<kernel_hal::imp::arch::drivers::IoMapperImpl>>::build::{closure#0}>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981297728"
+            }
+        },
+        {
+            "ts": 1744349310.8026905,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<zcore_drivers::utils::devicetree::Devicetree>::walk_inner::<<zcore_drivers::builder::devicetree::DevicetreeDriverBuilder<kernel_hal::imp::arch::drivers::IoMapperImpl>>::build::{closure#0}>"
+        },
+        {
+            "ts": 1744349310.879508,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<zcore_drivers::utils::devicetree::Devicetree>::walk_inner::<<zcore_drivers::builder::devicetree::DevicetreeDriverBuilder<kernel_hal::imp::arch::drivers::IoMapperImpl>>::build::{closure#0}>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981297728"
+            }
+        },
+        {
+            "ts": 1744349310.908461,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<zcore_drivers::utils::devicetree::Devicetree>::walk_inner::<<zcore_drivers::builder::devicetree::DevicetreeDriverBuilder<kernel_hal::imp::arch::drivers::IoMapperImpl>>::build::{closure#0}>"
+        },
+        {
+            "ts": 1744349310.95733,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<zcore_drivers::utils::devicetree::Devicetree>::walk_inner::<<zcore_drivers::builder::devicetree::DevicetreeDriverBuilder<kernel_hal::imp::arch::drivers::IoMapperImpl>>::build::{closure#0}>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981297728"
+            }
+        },
+        {
+            "ts": 1744349310.9852693,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<zcore_drivers::utils::devicetree::Devicetree>::walk_inner::<<zcore_drivers::builder::devicetree::DevicetreeDriverBuilder<kernel_hal::imp::arch::drivers::IoMapperImpl>>::build::{closure#0}>"
+        },
+        {
+            "ts": 1744349311.0331843,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<zcore_drivers::utils::devicetree::Devicetree>::walk_inner::<<zcore_drivers::builder::devicetree::DevicetreeDriverBuilder<kernel_hal::imp::arch::drivers::IoMapperImpl>>::build::{closure#0}>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981297728"
+            }
+        },
+        {
+            "ts": 1744349311.0690143,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<zcore_drivers::utils::devicetree::Devicetree>::walk_inner::<<zcore_drivers::builder::devicetree::DevicetreeDriverBuilder<kernel_hal::imp::arch::drivers::IoMapperImpl>>::build::{closure#0}>"
+        },
+        {
+            "ts": 1744349311.130109,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<zcore_drivers::utils::devicetree::Devicetree>::walk_inner::<<zcore_drivers::builder::devicetree::DevicetreeDriverBuilder<kernel_hal::imp::arch::drivers::IoMapperImpl>>::build::{closure#0}>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981297728"
+            }
+        },
+        {
+            "ts": 1744349311.1752133,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<zcore_drivers::utils::devicetree::Devicetree>::walk_inner::<<zcore_drivers::builder::devicetree::DevicetreeDriverBuilder<kernel_hal::imp::arch::drivers::IoMapperImpl>>::build::{closure#0}>"
+        },
+        {
+            "ts": 1744349311.236976,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<zcore_drivers::utils::devicetree::Devicetree>::walk_inner::<<zcore_drivers::builder::devicetree::DevicetreeDriverBuilder<kernel_hal::imp::arch::drivers::IoMapperImpl>>::build::{closure#0}>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981297728"
+            }
+        },
+        {
+            "ts": 1744349311.2687776,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<zcore_drivers::utils::devicetree::Devicetree>::walk_inner::<<zcore_drivers::builder::devicetree::DevicetreeDriverBuilder<kernel_hal::imp::arch::drivers::IoMapperImpl>>::build::{closure#0}>"
+        },
+        {
+            "ts": 1744349311.3155737,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<zcore_drivers::utils::devicetree::Devicetree>::walk_inner::<<zcore_drivers::builder::devicetree::DevicetreeDriverBuilder<kernel_hal::imp::arch::drivers::IoMapperImpl>>::build::{closure#0}>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981297728"
+            }
+        },
+        {
+            "ts": 1744349311.3386967,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<zcore_drivers::utils::devicetree::Devicetree>::walk_inner::<<zcore_drivers::builder::devicetree::DevicetreeDriverBuilder<kernel_hal::imp::arch::drivers::IoMapperImpl>>::build::{closure#0}>"
+        },
+        {
+            "ts": 1744349311.3817527,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<zcore_drivers::utils::devicetree::Devicetree>::walk_inner::<<zcore_drivers::builder::devicetree::DevicetreeDriverBuilder<kernel_hal::imp::arch::drivers::IoMapperImpl>>::build::{closure#0}>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981297728"
+            }
+        },
+        {
+            "ts": 1744349311.4142773,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<zcore_drivers::utils::devicetree::Devicetree>::walk_inner::<<zcore_drivers::builder::devicetree::DevicetreeDriverBuilder<kernel_hal::imp::arch::drivers::IoMapperImpl>>::build::{closure#0}>"
+        },
+        {
+            "ts": 1744349311.4788673,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<zcore_drivers::utils::devicetree::Devicetree>::walk_inner::<<zcore_drivers::builder::devicetree::DevicetreeDriverBuilder<kernel_hal::imp::arch::drivers::IoMapperImpl>>::build::{closure#0}>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981297728"
+            }
+        },
+        {
+            "ts": 1744349311.5094504,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<zcore_drivers::utils::devicetree::Devicetree>::walk_inner::<<zcore_drivers::builder::devicetree::DevicetreeDriverBuilder<kernel_hal::imp::arch::drivers::IoMapperImpl>>::build::{closure#0}>"
+        },
+        {
+            "ts": 1744349311.5526042,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<zcore_drivers::utils::devicetree::Devicetree>::walk_inner::<<zcore_drivers::builder::devicetree::DevicetreeDriverBuilder<kernel_hal::imp::arch::drivers::IoMapperImpl>>::build::{closure#0}>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981297728"
+            }
+        },
+        {
+            "ts": 1744349311.556801,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<zcore_drivers::utils::devicetree::Devicetree>::walk_inner::<<zcore_drivers::builder::devicetree::DevicetreeDriverBuilder<kernel_hal::imp::arch::drivers::IoMapperImpl>>::build::{closure#0}>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981297728"
+            }
+        },
+        {
+            "ts": 1744349311.5592642,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<zcore_drivers::utils::devicetree::Devicetree>::walk_inner::<<zcore_drivers::builder::devicetree::DevicetreeDriverBuilder<kernel_hal::imp::arch::drivers::IoMapperImpl>>::build::{closure#0}>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981331766"
+            }
+        },
+        {
+            "ts": 1744349355.9354432,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<alloc::collections::btree::node::Handle<alloc::collections::btree::node::NodeRef<alloc::collections::btree::node::marker::Mut, usize, zircon_object::probe::kretprobes::KRetProbeInstance, alloc::collections::btree::node::marker::Leaf>, alloc::collections::btree::node::marker::KV>>::remove_leaf_kv::<<alloc::collections::btree::map::entry::OccupiedEntry<usize, zircon_object::probe::kretprobes::KRetProbeInstance>>::remove_kv::{closure#0}, alloc::alloc::Global>"
+        },
+        {
+            "ts": 1744349356.0421338,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<alloc::collections::btree::node::Handle<alloc::collections::btree::node::NodeRef<alloc::collections::btree::node::marker::Mut, usize, zircon_object::probe::kretprobes::KRetProbeInstance, alloc::collections::btree::node::marker::Leaf>, alloc::collections::btree::node::marker::KV>>::remove_leaf_kv::<<alloc::collections::btree::map::entry::OccupiedEntry<usize, zircon_object::probe::kretprobes::KRetProbeInstance>>::remove_kv::{closure#0}, alloc::alloc::Global>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800982173170"
+            }
+        },
+        {
+            "ts": 1744349356.0422313,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<alloc::collections::btree::node::Handle<alloc::collections::btree::node::NodeRef<alloc::collections::btree::node::marker::Mut, usize, zircon_object::probe::kretprobes::KRetProbeInstance, alloc::collections::btree::node::marker::Leaf>, alloc::collections::btree::node::marker::KV>>::remove_leaf_kv::<<alloc::collections::btree::map::entry::OccupiedEntry<usize, zircon_object::probe::kretprobes::KRetProbeInstance>>::remove_kv::{closure#0}, alloc::alloc::Global>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800982173170"
+            }
+        },
+        {
+            "ts": 1744349356.0424242,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<alloc::collections::btree::node::Handle<alloc::collections::btree::node::NodeRef<alloc::collections::btree::node::marker::Mut, usize, zircon_object::probe::kretprobes::KRetProbeInstance, alloc::collections::btree::node::marker::Leaf>, alloc::collections::btree::node::marker::KV>>::remove_leaf_kv::<<alloc::collections::btree::map::entry::OccupiedEntry<usize, zircon_object::probe::kretprobes::KRetProbeInstance>>::remove_kv::{closure#0}, alloc::alloc::Global>"
+        },
+        {
+            "ts": 1744349356.2250798,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<alloc::collections::btree::node::Handle<alloc::collections::btree::node::NodeRef<alloc::collections::btree::node::marker::Mut, usize, zircon_object::probe::kretprobes::KRetProbeInstance, alloc::collections::btree::node::marker::Leaf>, alloc::collections::btree::node::marker::KV>>::remove_leaf_kv::<<alloc::collections::btree::map::entry::OccupiedEntry<usize, zircon_object::probe::kretprobes::KRetProbeInstance>>::remove_kv::{closure#0}, alloc::alloc::Global>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800982173170"
+            }
+        },
+        {
+            "ts": 1744349356.2251458,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<alloc::collections::btree::node::Handle<alloc::collections::btree::node::NodeRef<alloc::collections::btree::node::marker::Mut, usize, zircon_object::probe::kretprobes::KRetProbeInstance, alloc::collections::btree::node::marker::Leaf>, alloc::collections::btree::node::marker::KV>>::remove_leaf_kv::<<alloc::collections::btree::map::entry::OccupiedEntry<usize, zircon_object::probe::kretprobes::KRetProbeInstance>>::remove_kv::{closure#0}, alloc::alloc::Global>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800982173170"
+            }
+        },
+        {
+            "ts": 1744349356.2252479,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<alloc::collections::btree::node::Handle<alloc::collections::btree::node::NodeRef<alloc::collections::btree::node::marker::Mut, usize, zircon_object::probe::kretprobes::KRetProbeInstance, alloc::collections::btree::node::marker::Leaf>, alloc::collections::btree::node::marker::KV>>::remove_leaf_kv::<<alloc::collections::btree::map::entry::OccupiedEntry<usize, zircon_object::probe::kretprobes::KRetProbeInstance>>::remove_kv::{closure#0}, alloc::alloc::Global>"
+        },
+        {
+            "ts": 1744349356.3677955,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<alloc::collections::btree::node::Handle<alloc::collections::btree::node::NodeRef<alloc::collections::btree::node::marker::Mut, usize, zircon_object::probe::kretprobes::KRetProbeInstance, alloc::collections::btree::node::marker::Leaf>, alloc::collections::btree::node::marker::KV>>::remove_leaf_kv::<<alloc::collections::btree::map::entry::OccupiedEntry<usize, zircon_object::probe::kretprobes::KRetProbeInstance>>::remove_kv::{closure#0}, alloc::alloc::Global>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800982173170"
+            }
+        },
+        {
+            "ts": 1744349356.3678777,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<alloc::collections::btree::node::Handle<alloc::collections::btree::node::NodeRef<alloc::collections::btree::node::marker::Mut, usize, zircon_object::probe::kretprobes::KRetProbeInstance, alloc::collections::btree::node::marker::Leaf>, alloc::collections::btree::node::marker::KV>>::remove_leaf_kv::<<alloc::collections::btree::map::entry::OccupiedEntry<usize, zircon_object::probe::kretprobes::KRetProbeInstance>>::remove_kv::{closure#0}, alloc::alloc::Global>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800982173170"
+            }
+        },
+        {
+            "ts": 1744349356.3680277,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<alloc::collections::btree::node::Handle<alloc::collections::btree::node::NodeRef<alloc::collections::btree::node::marker::Mut, usize, zircon_object::probe::kretprobes::KRetProbeInstance, alloc::collections::btree::node::marker::Leaf>, alloc::collections::btree::node::marker::KV>>::remove_leaf_kv::<<alloc::collections::btree::map::entry::OccupiedEntry<usize, zircon_object::probe::kretprobes::KRetProbeInstance>>::remove_kv::{closure#0}, alloc::alloc::Global>"
+        },
+        {
+            "ts": 1744349356.523662,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<alloc::collections::btree::node::Handle<alloc::collections::btree::node::NodeRef<alloc::collections::btree::node::marker::Mut, usize, zircon_object::probe::kretprobes::KRetProbeInstance, alloc::collections::btree::node::marker::Leaf>, alloc::collections::btree::node::marker::KV>>::remove_leaf_kv::<<alloc::collections::btree::map::entry::OccupiedEntry<usize, zircon_object::probe::kretprobes::KRetProbeInstance>>::remove_kv::{closure#0}, alloc::alloc::Global>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800982173170"
+            }
+        },
+        {
+            "ts": 1744349356.5237172,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<alloc::collections::btree::node::Handle<alloc::collections::btree::node::NodeRef<alloc::collections::btree::node::marker::Mut, usize, zircon_object::probe::kretprobes::KRetProbeInstance, alloc::collections::btree::node::marker::Leaf>, alloc::collections::btree::node::marker::KV>>::remove_leaf_kv::<<alloc::collections::btree::map::entry::OccupiedEntry<usize, zircon_object::probe::kretprobes::KRetProbeInstance>>::remove_kv::{closure#0}, alloc::alloc::Global>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800982173170"
+            }
+        },
+        {
+            "ts": 1744349356.5238361,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<alloc::collections::btree::node::Handle<alloc::collections::btree::node::NodeRef<alloc::collections::btree::node::marker::Mut, usize, zircon_object::probe::kretprobes::KRetProbeInstance, alloc::collections::btree::node::marker::Leaf>, alloc::collections::btree::node::marker::KV>>::remove_leaf_kv::<<alloc::collections::btree::map::entry::OccupiedEntry<usize, zircon_object::probe::kretprobes::KRetProbeInstance>>::remove_kv::{closure#0}, alloc::alloc::Global>"
+        },
+        {
+            "ts": 1744349356.8919244,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<alloc::collections::btree::node::Handle<alloc::collections::btree::node::NodeRef<alloc::collections::btree::node::marker::Mut, usize, zircon_object::probe::kretprobes::KRetProbeInstance, alloc::collections::btree::node::marker::Leaf>, alloc::collections::btree::node::marker::KV>>::remove_leaf_kv::<<alloc::collections::btree::map::entry::OccupiedEntry<usize, zircon_object::probe::kretprobes::KRetProbeInstance>>::remove_kv::{closure#0}, alloc::alloc::Global>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981455850"
+            }
+        },
+        {
+            "ts": 1744349356.8929787,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<alloc::collections::btree::node::Handle<alloc::collections::btree::node::NodeRef<alloc::collections::btree::node::marker::Mut, usize, zircon_object::probe::kretprobes::KRetProbeInstance, alloc::collections::btree::node::marker::Leaf>, alloc::collections::btree::node::marker::KV>>::remove_leaf_kv::<<alloc::collections::btree::map::entry::OccupiedEntry<usize, zircon_object::probe::kretprobes::KRetProbeInstance>>::remove_kv::{closure#0}, alloc::alloc::Global>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981455850"
+            }
+        },
+        {
+            "ts": 1744349356.8930893,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<hashbrown::raw::RawTable<(linux_object::fs::FileDesc, alloc::sync::Arc<dyn linux_object::fs::FileLike>)>>::reserve_rehash::<<hashbrown::map::HashMap<linux_object::fs::FileDesc, alloc::sync::Arc<dyn linux_object::fs::FileLike>>>::insert::{closure#1}>"
+        },
+        {
+            "ts": 1744349356.9357722,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<hashbrown::raw::RawTable<(linux_object::fs::FileDesc, alloc::sync::Arc<dyn linux_object::fs::FileLike>)>>::reserve_rehash::<<hashbrown::map::HashMap<linux_object::fs::FileDesc, alloc::sync::Arc<dyn linux_object::fs::FileLike>>>::insert::{closure#1}>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981577596"
+            }
+        },
+        {
+            "ts": 1744349357.2519307,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "xecutor::runtime::spawn_task::<zircon_object::task::thread::ThreadSwitchFuture>"
+        },
+        {
+            "ts": 1744349357.4352064,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "xecutor::runtime::spawn_task::<zircon_object::task::thread::ThreadSwitchFuture>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981284556"
+            }
+        },
+        {
+            "ts": 1744349357.4352589,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "xecutor::runtime::spawn_task::<zircon_object::task::thread::ThreadSwitchFuture>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981284556"
+            }
+        },
+        {
+            "ts": 1744349357.4353426,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}"
+        },
+        {
+            "ts": 1744349357.4761674,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981285754"
+            }
+        },
+        {
+            "ts": 1744349357.6230538,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<zircon_object::task::thread::ThreadSwitchFuture as core::future::future::Future>::poll"
+        },
+        {
+            "ts": 1744349357.7275696,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<hashbrown::raw::RawTable<(linux_object::fs::FileDesc, alloc::sync::Arc<dyn linux_object::fs::FileLike>)>>::reserve_rehash::<<hashbrown::map::HashMap<linux_object::fs::FileDesc, alloc::sync::Arc<dyn linux_object::fs::FileLike>>>::insert::{closure#1}>"
+        },
+        {
+            "ts": 1744349357.8295174,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<hashbrown::raw::RawTable<(linux_object::fs::FileDesc, alloc::sync::Arc<dyn linux_object::fs::FileLike>)>>::reserve_rehash::<<hashbrown::map::HashMap<linux_object::fs::FileDesc, alloc::sync::Arc<dyn linux_object::fs::FileLike>>>::insert::{closure#1}>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981577596"
+            }
+        },
+        {
+            "ts": 1744349358.361528,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<<linux_object::fs::stdio::Stdin as rcore_fs::vfs::INode>::async_poll::SerialFuture as core::future::future::Future>::poll"
+        },
+        {
+            "ts": 1744349358.4841943,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<<linux_object::fs::stdio::Stdin as rcore_fs::vfs::INode>::async_poll::SerialFuture as core::future::future::Future>::poll",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981378096"
+            }
+        },
+        {
+            "ts": 1744349358.4842672,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<<linux_object::fs::stdio::Stdin as rcore_fs::vfs::INode>::async_poll::SerialFuture as core::future::future::Future>::poll",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981378096"
+            }
+        },
+        {
+            "ts": 1744349358.484437,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::async_poll::{closure#0}>>"
+        },
+        {
+            "ts": 1744349358.5384233,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<zircon_object::task::thread::ThreadSwitchFuture as core::future::future::Future>::poll",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981280966"
+            }
+        },
+        {
+            "ts": 1744349358.5671167,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::async_poll::{closure#0}>>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981284556"
+            }
+        },
+        {
+            "ts": 1744349358.567151,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::async_poll::{closure#0}>>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981284556"
+            }
+        },
+        {
+            "ts": 1744349358.5672085,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}"
+        },
+        {
+            "ts": 1744349358.6098483,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981285754"
+            }
+        },
+        {
+            "ts": 1744349358.6416733,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}"
+        },
+        {
+            "ts": 1744349358.6913958,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981285754"
+            }
+        },
+        {
+            "ts": 1744349359.4321892,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<<<linux_syscall::Syscall>::sys_select::{closure#0}::SelectFuture as core::future::future::Future>::poll::{closure#0}>"
+        },
+        {
+            "ts": 1744349359.5419087,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<<<linux_syscall::Syscall>::sys_select::{closure#0}::SelectFuture as core::future::future::Future>::poll::{closure#0}>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981284556"
+            }
+        },
+        {
+            "ts": 1744349359.5419495,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<<<linux_syscall::Syscall>::sys_select::{closure#0}::SelectFuture as core::future::future::Future>::poll::{closure#0}>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981284556"
+            }
+        },
+        {
+            "ts": 1744349359.5420165,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}"
+        },
+        {
+            "ts": 1744349359.5842898,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981285754"
+            }
+        },
+        {
+            "ts": 1744349359.8222957,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<zircon_object::task::thread::ThreadSwitchFuture as core::future::future::Future>::poll"
+        },
+        {
+            "ts": 1744349359.8801167,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<<linux_object::fs::stdio::Stdin as rcore_fs::vfs::INode>::async_poll::SerialFuture as core::future::future::Future>::poll"
+        },
+        {
+            "ts": 1744349360.0058427,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<<linux_object::fs::stdio::Stdin as rcore_fs::vfs::INode>::async_poll::SerialFuture as core::future::future::Future>::poll",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981378096"
+            }
+        },
+        {
+            "ts": 1744349360.0059853,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<<linux_object::fs::stdio::Stdin as rcore_fs::vfs::INode>::async_poll::SerialFuture as core::future::future::Future>::poll",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981378096"
+            }
+        },
+        {
+            "ts": 1744349360.0061715,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::async_poll::{closure#0}>>"
+        },
+        {
+            "ts": 1744349360.072917,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<zircon_object::task::thread::ThreadSwitchFuture as core::future::future::Future>::poll",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981280966"
+            }
+        },
+        {
+            "ts": 1744349360.1158934,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::async_poll::{closure#0}>>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981284556"
+            }
+        },
+        {
+            "ts": 1744349360.115948,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::async_poll::{closure#0}>>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981284556"
+            }
+        },
+        {
+            "ts": 1744349360.11602,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}"
+        },
+        {
+            "ts": 1744349360.1576657,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981285754"
+            }
+        },
+        {
+            "ts": 1744349360.1901255,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}"
+        },
+        {
+            "ts": 1744349360.2445533,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981285754"
+            }
+        },
+        {
+            "ts": 1744349361.3277698,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<<<linux_syscall::Syscall>::sys_select::{closure#0}::SelectFuture as core::future::future::Future>::poll::{closure#0}>"
+        },
+        {
+            "ts": 1744349361.3836527,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<<<linux_syscall::Syscall>::sys_select::{closure#0}::SelectFuture as core::future::future::Future>::poll::{closure#0}>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981284556"
+            }
+        },
+        {
+            "ts": 1744349361.3836915,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<<<linux_syscall::Syscall>::sys_select::{closure#0}::SelectFuture as core::future::future::Future>::poll::{closure#0}>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981284556"
+            }
+        },
+        {
+            "ts": 1744349361.383756,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}"
+        },
+        {
+            "ts": 1744349361.426201,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981285754"
+            }
+        },
+        {
+            "ts": 1744349361.4490619,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<zircon_object::task::thread::ThreadSwitchFuture as core::future::future::Future>::poll"
+        },
+        {
+            "ts": 1744349361.5107894,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<<linux_object::fs::stdio::Stdin as rcore_fs::vfs::INode>::async_poll::SerialFuture as core::future::future::Future>::poll"
+        },
+        {
+            "ts": 1744349361.5718393,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<<linux_object::fs::stdio::Stdin as rcore_fs::vfs::INode>::async_poll::SerialFuture as core::future::future::Future>::poll",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981378096"
+            }
+        },
+        {
+            "ts": 1744349361.571915,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<<linux_object::fs::stdio::Stdin as rcore_fs::vfs::INode>::async_poll::SerialFuture as core::future::future::Future>::poll",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981378096"
+            }
+        },
+        {
+            "ts": 1744349361.5720344,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::async_poll::{closure#0}>>"
+        },
+        {
+            "ts": 1744349361.6155457,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<zircon_object::task::thread::ThreadSwitchFuture as core::future::future::Future>::poll",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981280966"
+            }
+        },
+        {
+            "ts": 1744349361.6378124,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::async_poll::{closure#0}>>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981284556"
+            }
+        },
+        {
+            "ts": 1744349361.637862,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::async_poll::{closure#0}>>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981284556"
+            }
+        },
+        {
+            "ts": 1744349361.6379228,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}"
+        },
+        {
+            "ts": 1744349361.6721241,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981285754"
+            }
+        },
+        {
+            "ts": 1744349361.6949904,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}"
+        },
+        {
+            "ts": 1744349361.7349224,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981285754"
+            }
+        },
+        {
+            "ts": 1744349362.7684848,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<<<linux_syscall::Syscall>::sys_select::{closure#0}::SelectFuture as core::future::future::Future>::poll::{closure#0}>"
+        },
+        {
+            "ts": 1744349362.8259506,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<<<linux_syscall::Syscall>::sys_select::{closure#0}::SelectFuture as core::future::future::Future>::poll::{closure#0}>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981284556"
+            }
+        },
+        {
+            "ts": 1744349362.8259912,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<<<linux_syscall::Syscall>::sys_select::{closure#0}::SelectFuture as core::future::future::Future>::poll::{closure#0}>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981284556"
+            }
+        },
+        {
+            "ts": 1744349362.8260636,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}"
+        },
+        {
+            "ts": 1744349362.8650482,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981285754"
+            }
+        },
+        {
+            "ts": 1744349362.8930666,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<zircon_object::task::thread::ThreadSwitchFuture as core::future::future::Future>::poll"
+        },
+        {
+            "ts": 1744349362.958608,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<<linux_object::fs::stdio::Stdin as rcore_fs::vfs::INode>::async_poll::SerialFuture as core::future::future::Future>::poll"
+        },
+        {
+            "ts": 1744349363.0366793,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<<linux_object::fs::stdio::Stdin as rcore_fs::vfs::INode>::async_poll::SerialFuture as core::future::future::Future>::poll",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981378096"
+            }
+        },
+        {
+            "ts": 1744349363.0367572,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<<linux_object::fs::stdio::Stdin as rcore_fs::vfs::INode>::async_poll::SerialFuture as core::future::future::Future>::poll",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981378096"
+            }
+        },
+        {
+            "ts": 1744349363.0368598,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::async_poll::{closure#0}>>"
+        },
+        {
+            "ts": 1744349363.0739136,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<zircon_object::task::thread::ThreadSwitchFuture as core::future::future::Future>::poll",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981280966"
+            }
+        },
+        {
+            "ts": 1744349363.090631,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::async_poll::{closure#0}>>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981284556"
+            }
+        },
+        {
+            "ts": 1744349363.0906668,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::async_poll::{closure#0}>>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981284556"
+            }
+        },
+        {
+            "ts": 1744349363.0907252,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}"
+        },
+        {
+            "ts": 1744349363.1200395,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981285754"
+            }
+        },
+        {
+            "ts": 1744349363.1450555,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}"
+        },
+        {
+            "ts": 1744349363.180507,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981285754"
+            }
+        },
+        {
+            "ts": 1744349364.2092898,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<<<linux_syscall::Syscall>::sys_select::{closure#0}::SelectFuture as core::future::future::Future>::poll::{closure#0}>"
+        },
+        {
+            "ts": 1744349364.2723377,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<<<linux_syscall::Syscall>::sys_select::{closure#0}::SelectFuture as core::future::future::Future>::poll::{closure#0}>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981284556"
+            }
+        },
+        {
+            "ts": 1744349364.2723854,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<<<linux_syscall::Syscall>::sys_select::{closure#0}::SelectFuture as core::future::future::Future>::poll::{closure#0}>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981284556"
+            }
+        },
+        {
+            "ts": 1744349364.272451,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}"
+        },
+        {
+            "ts": 1744349364.3095536,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981285754"
+            }
+        },
+        {
+            "ts": 1744349364.3307583,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<zircon_object::task::thread::ThreadSwitchFuture as core::future::future::Future>::poll"
+        },
+        {
+            "ts": 1744349364.3891072,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<<linux_object::fs::stdio::Stdin as rcore_fs::vfs::INode>::async_poll::SerialFuture as core::future::future::Future>::poll"
+        },
+        {
+            "ts": 1744349364.4477756,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<<linux_object::fs::stdio::Stdin as rcore_fs::vfs::INode>::async_poll::SerialFuture as core::future::future::Future>::poll",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981378096"
+            }
+        },
+        {
+            "ts": 1744349364.447842,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<<linux_object::fs::stdio::Stdin as rcore_fs::vfs::INode>::async_poll::SerialFuture as core::future::future::Future>::poll",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981378096"
+            }
+        },
+        {
+            "ts": 1744349364.4479423,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::async_poll::{closure#0}>>"
+        },
+        {
+            "ts": 1744349364.4861584,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<zircon_object::task::thread::ThreadSwitchFuture as core::future::future::Future>::poll",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981280966"
+            }
+        },
+        {
+            "ts": 1744349364.5097055,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::async_poll::{closure#0}>>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981284556"
+            }
+        },
+        {
+            "ts": 1744349364.5097342,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::async_poll::{closure#0}>>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981284556"
+            }
+        },
+        {
+            "ts": 1744349364.509817,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}"
+        },
+        {
+            "ts": 1744349364.5513194,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981285754"
+            }
+        },
+        {
+            "ts": 1744349364.5775242,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}"
+        },
+        {
+            "ts": 1744349364.6237786,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981285754"
+            }
+        },
+        {
+            "ts": 1744349365.636034,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<<<linux_syscall::Syscall>::sys_select::{closure#0}::SelectFuture as core::future::future::Future>::poll::{closure#0}>"
+        },
+        {
+            "ts": 1744349365.7083006,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<<<linux_syscall::Syscall>::sys_select::{closure#0}::SelectFuture as core::future::future::Future>::poll::{closure#0}>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981284556"
+            }
+        },
+        {
+            "ts": 1744349365.708347,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<<<linux_syscall::Syscall>::sys_select::{closure#0}::SelectFuture as core::future::future::Future>::poll::{closure#0}>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981284556"
+            }
+        },
+        {
+            "ts": 1744349365.7084093,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}"
+        },
+        {
+            "ts": 1744349365.7553823,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981285754"
+            }
+        },
+        {
+            "ts": 1744349365.7864103,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<zircon_object::task::thread::ThreadSwitchFuture as core::future::future::Future>::poll"
+        },
+        {
+            "ts": 1744349365.8869355,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<<linux_object::fs::stdio::Stdin as rcore_fs::vfs::INode>::async_poll::SerialFuture as core::future::future::Future>::poll"
+        },
+        {
+            "ts": 1744349365.9508343,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<<linux_object::fs::stdio::Stdin as rcore_fs::vfs::INode>::async_poll::SerialFuture as core::future::future::Future>::poll",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981378096"
+            }
+        },
+        {
+            "ts": 1744349365.9509234,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<<linux_object::fs::stdio::Stdin as rcore_fs::vfs::INode>::async_poll::SerialFuture as core::future::future::Future>::poll",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981378096"
+            }
+        },
+        {
+            "ts": 1744349365.9510365,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::async_poll::{closure#0}>>"
+        },
+        {
+            "ts": 1744349366.0060856,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<zircon_object::task::thread::ThreadSwitchFuture as core::future::future::Future>::poll",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981280966"
+            }
+        },
+        {
+            "ts": 1744349366.0360596,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::async_poll::{closure#0}>>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981284556"
+            }
+        },
+        {
+            "ts": 1744349366.036099,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::async_poll::{closure#0}>>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981284556"
+            }
+        },
+        {
+            "ts": 1744349366.0361657,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}"
+        },
+        {
+            "ts": 1744349366.0748992,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981285754"
+            }
+        },
+        {
+            "ts": 1744349366.101969,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}"
+        },
+        {
+            "ts": 1744349366.1452148,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981285754"
+            }
+        },
+        {
+            "ts": 1744349367.1613855,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<<<linux_syscall::Syscall>::sys_select::{closure#0}::SelectFuture as core::future::future::Future>::poll::{closure#0}>"
+        },
+        {
+            "ts": 1744349367.2206728,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<<<linux_syscall::Syscall>::sys_select::{closure#0}::SelectFuture as core::future::future::Future>::poll::{closure#0}>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981284556"
+            }
+        },
+        {
+            "ts": 1744349367.2207153,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<<<linux_syscall::Syscall>::sys_select::{closure#0}::SelectFuture as core::future::future::Future>::poll::{closure#0}>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981284556"
+            }
+        },
+        {
+            "ts": 1744349367.220829,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}"
+        },
+        {
+            "ts": 1744349367.2631457,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981285754"
+            }
+        },
+        {
+            "ts": 1744349367.2907474,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<zircon_object::task::thread::ThreadSwitchFuture as core::future::future::Future>::poll"
+        },
+        {
+            "ts": 1744349367.3535619,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<<linux_object::fs::stdio::Stdin as rcore_fs::vfs::INode>::async_poll::SerialFuture as core::future::future::Future>::poll"
+        },
+        {
+            "ts": 1744349367.4148042,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<<linux_object::fs::stdio::Stdin as rcore_fs::vfs::INode>::async_poll::SerialFuture as core::future::future::Future>::poll",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981378096"
+            }
+        },
+        {
+            "ts": 1744349367.4148707,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<<linux_object::fs::stdio::Stdin as rcore_fs::vfs::INode>::async_poll::SerialFuture as core::future::future::Future>::poll",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981378096"
+            }
+        },
+        {
+            "ts": 1744349367.4149654,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::async_poll::{closure#0}>>"
+        },
+        {
+            "ts": 1744349367.45481,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<zircon_object::task::thread::ThreadSwitchFuture as core::future::future::Future>::poll",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981280966"
+            }
+        },
+        {
+            "ts": 1744349367.4776497,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::async_poll::{closure#0}>>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981284556"
+            }
+        },
+        {
+            "ts": 1744349367.4776812,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::async_poll::{closure#0}>>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981284556"
+            }
+        },
+        {
+            "ts": 1744349367.477737,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}"
+        },
+        {
+            "ts": 1744349367.5162446,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981285754"
+            }
+        },
+        {
+            "ts": 1744349367.5420542,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}"
+        },
+        {
+            "ts": 1744349367.58307,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981285754"
+            }
+        },
+        {
+            "ts": 1744349368.622357,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<<<linux_syscall::Syscall>::sys_select::{closure#0}::SelectFuture as core::future::future::Future>::poll::{closure#0}>"
+        },
+        {
+            "ts": 1744349368.696904,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<<<linux_syscall::Syscall>::sys_select::{closure#0}::SelectFuture as core::future::future::Future>::poll::{closure#0}>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981284556"
+            }
+        },
+        {
+            "ts": 1744349368.6969483,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<<<linux_syscall::Syscall>::sys_select::{closure#0}::SelectFuture as core::future::future::Future>::poll::{closure#0}>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981284556"
+            }
+        },
+        {
+            "ts": 1744349368.6970198,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}"
+        },
+        {
+            "ts": 1744349368.7266138,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981285754"
+            }
+        },
+        {
+            "ts": 1744349368.7474072,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<zircon_object::task::thread::ThreadSwitchFuture as core::future::future::Future>::poll"
+        },
+        {
+            "ts": 1744349368.7933772,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<<linux_object::fs::stdio::Stdin as rcore_fs::vfs::INode>::async_poll::SerialFuture as core::future::future::Future>::poll"
+        },
+        {
+            "ts": 1744349368.8347387,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<<linux_object::fs::stdio::Stdin as rcore_fs::vfs::INode>::async_poll::SerialFuture as core::future::future::Future>::poll",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981378096"
+            }
+        },
+        {
+            "ts": 1744349368.8347902,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<<linux_object::fs::stdio::Stdin as rcore_fs::vfs::INode>::async_poll::SerialFuture as core::future::future::Future>::poll",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981378096"
+            }
+        },
+        {
+            "ts": 1744349368.834875,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::async_poll::{closure#0}>>"
+        },
+        {
+            "ts": 1744349368.8584986,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<zircon_object::task::thread::ThreadSwitchFuture as core::future::future::Future>::poll",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981280966"
+            }
+        },
+        {
+            "ts": 1744349368.8752952,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::async_poll::{closure#0}>>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981284556"
+            }
+        },
+        {
+            "ts": 1744349368.8753297,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::async_poll::{closure#0}>>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981284556"
+            }
+        },
+        {
+            "ts": 1744349368.8753886,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}"
+        },
+        {
+            "ts": 1744349368.905917,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981285754"
+            }
+        },
+        {
+            "ts": 1744349368.922418,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}"
+        },
+        {
+            "ts": 1744349368.9706206,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981285754"
+            }
+        },
+        {
+            "ts": 1744349369.9982672,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<<<linux_syscall::Syscall>::sys_select::{closure#0}::SelectFuture as core::future::future::Future>::poll::{closure#0}>"
+        },
+        {
+            "ts": 1744349370.0538595,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<<<linux_syscall::Syscall>::sys_select::{closure#0}::SelectFuture as core::future::future::Future>::poll::{closure#0}>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981284556"
+            }
+        },
+        {
+            "ts": 1744349370.0538926,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<<<linux_syscall::Syscall>::sys_select::{closure#0}::SelectFuture as core::future::future::Future>::poll::{closure#0}>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981284556"
+            }
+        },
+        {
+            "ts": 1744349370.053942,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}"
+        },
+        {
+            "ts": 1744349370.0837622,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981285754"
+            }
+        },
+        {
+            "ts": 1744349370.1107616,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<zircon_object::task::thread::ThreadSwitchFuture as core::future::future::Future>::poll"
+        },
+        {
+            "ts": 1744349370.1654692,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<<linux_object::fs::stdio::Stdin as rcore_fs::vfs::INode>::async_poll::SerialFuture as core::future::future::Future>::poll"
+        },
+        {
+            "ts": 1744349370.2248118,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<<linux_object::fs::stdio::Stdin as rcore_fs::vfs::INode>::async_poll::SerialFuture as core::future::future::Future>::poll",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981378096"
+            }
+        },
+        {
+            "ts": 1744349370.2248635,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<<linux_object::fs::stdio::Stdin as rcore_fs::vfs::INode>::async_poll::SerialFuture as core::future::future::Future>::poll",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981378096"
+            }
+        },
+        {
+            "ts": 1744349370.2249467,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::async_poll::{closure#0}>>"
+        },
+        {
+            "ts": 1744349370.2650843,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<zircon_object::task::thread::ThreadSwitchFuture as core::future::future::Future>::poll",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981280966"
+            }
+        },
+        {
+            "ts": 1744349370.2875383,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::async_poll::{closure#0}>>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981284556"
+            }
+        },
+        {
+            "ts": 1744349370.2875686,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::async_poll::{closure#0}>>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981284556"
+            }
+        },
+        {
+            "ts": 1744349370.2876184,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}"
+        },
+        {
+            "ts": 1744349370.318915,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981285754"
+            }
+        },
+        {
+            "ts": 1744349370.3380835,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}"
+        },
+        {
+            "ts": 1744349370.3710685,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981285754"
+            }
+        },
+        {
+            "ts": 1744349371.4023104,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<<<linux_syscall::Syscall>::sys_select::{closure#0}::SelectFuture as core::future::future::Future>::poll::{closure#0}>"
+        },
+        {
+            "ts": 1744349371.4544554,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<<<linux_syscall::Syscall>::sys_select::{closure#0}::SelectFuture as core::future::future::Future>::poll::{closure#0}>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981284556"
+            }
+        },
+        {
+            "ts": 1744349371.4544969,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<<<linux_syscall::Syscall>::sys_select::{closure#0}::SelectFuture as core::future::future::Future>::poll::{closure#0}>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981284556"
+            }
+        },
+        {
+            "ts": 1744349371.4545505,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}"
+        },
+        {
+            "ts": 1744349371.4905336,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981285754"
+            }
+        },
+        {
+            "ts": 1744349371.515681,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<zircon_object::task::thread::ThreadSwitchFuture as core::future::future::Future>::poll"
+        },
+        {
+            "ts": 1744349371.6041756,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<<linux_object::fs::stdio::Stdin as rcore_fs::vfs::INode>::async_poll::SerialFuture as core::future::future::Future>::poll"
+        },
+        {
+            "ts": 1744349371.7086222,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<<linux_object::fs::stdio::Stdin as rcore_fs::vfs::INode>::async_poll::SerialFuture as core::future::future::Future>::poll",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981378096"
+            }
+        },
+        {
+            "ts": 1744349371.708707,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<<linux_object::fs::stdio::Stdin as rcore_fs::vfs::INode>::async_poll::SerialFuture as core::future::future::Future>::poll",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981378096"
+            }
+        },
+        {
+            "ts": 1744349371.7088144,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::async_poll::{closure#0}>>"
+        },
+        {
+            "ts": 1744349371.744398,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<zircon_object::task::thread::ThreadSwitchFuture as core::future::future::Future>::poll",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981280966"
+            }
+        },
+        {
+            "ts": 1744349371.781299,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::async_poll::{closure#0}>>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981284556"
+            }
+        },
+        {
+            "ts": 1744349371.7813659,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::async_poll::{closure#0}>>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981284556"
+            }
+        },
+        {
+            "ts": 1744349371.781473,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}"
+        },
+        {
+            "ts": 1744349371.853509,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981285754"
+            }
+        },
+        {
+            "ts": 1744349371.8871126,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}"
+        },
+        {
+            "ts": 1744349371.9442153,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981285754"
+            }
+        },
+        {
+            "ts": 1744349372.9593976,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<<<linux_syscall::Syscall>::sys_select::{closure#0}::SelectFuture as core::future::future::Future>::poll::{closure#0}>"
+        },
+        {
+            "ts": 1744349373.032498,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<<<linux_syscall::Syscall>::sys_select::{closure#0}::SelectFuture as core::future::future::Future>::poll::{closure#0}>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981284556"
+            }
+        },
+        {
+            "ts": 1744349373.0325482,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<<<linux_syscall::Syscall>::sys_select::{closure#0}::SelectFuture as core::future::future::Future>::poll::{closure#0}>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981284556"
+            }
+        },
+        {
+            "ts": 1744349373.032623,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}"
+        },
+        {
+            "ts": 1744349373.0610583,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981285754"
+            }
+        },
+        {
+            "ts": 1744349373.0798209,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<zircon_object::task::thread::ThreadSwitchFuture as core::future::future::Future>::poll"
+        },
+        {
+            "ts": 1744349373.1368923,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<<linux_object::fs::stdio::Stdin as rcore_fs::vfs::INode>::async_poll::SerialFuture as core::future::future::Future>::poll"
+        },
+        {
+            "ts": 1744349373.2082384,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<<linux_object::fs::stdio::Stdin as rcore_fs::vfs::INode>::async_poll::SerialFuture as core::future::future::Future>::poll",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981378096"
+            }
+        },
+        {
+            "ts": 1744349373.208305,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<<linux_object::fs::stdio::Stdin as rcore_fs::vfs::INode>::async_poll::SerialFuture as core::future::future::Future>::poll",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981378096"
+            }
+        },
+        {
+            "ts": 1744349373.2084289,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::async_poll::{closure#0}>>"
+        },
+        {
+            "ts": 1744349373.2527215,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<zircon_object::task::thread::ThreadSwitchFuture as core::future::future::Future>::poll",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981280966"
+            }
+        },
+        {
+            "ts": 1744349373.2849262,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::async_poll::{closure#0}>>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981284556"
+            }
+        },
+        {
+            "ts": 1744349373.2849615,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::async_poll::{closure#0}>>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981284556"
+            }
+        },
+        {
+            "ts": 1744349373.2850294,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}"
+        },
+        {
+            "ts": 1744349373.3264153,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981285754"
+            }
+        },
+        {
+            "ts": 1744349373.3497186,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}"
+        },
+        {
+            "ts": 1744349373.3891861,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981285754"
+            }
+        },
+        {
+            "ts": 1744349374.4164443,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<<<linux_syscall::Syscall>::sys_select::{closure#0}::SelectFuture as core::future::future::Future>::poll::{closure#0}>"
+        },
+        {
+            "ts": 1744349374.4817882,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<<<linux_syscall::Syscall>::sys_select::{closure#0}::SelectFuture as core::future::future::Future>::poll::{closure#0}>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981284556"
+            }
+        },
+        {
+            "ts": 1744349374.481827,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<<<linux_syscall::Syscall>::sys_select::{closure#0}::SelectFuture as core::future::future::Future>::poll::{closure#0}>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981284556"
+            }
+        },
+        {
+            "ts": 1744349374.4819224,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}"
+        },
+        {
+            "ts": 1744349374.5186894,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981285754"
+            }
+        },
+        {
+            "ts": 1744349374.5434074,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<zircon_object::task::thread::ThreadSwitchFuture as core::future::future::Future>::poll"
+        },
+        {
+            "ts": 1744349374.6066842,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<<linux_object::fs::stdio::Stdin as rcore_fs::vfs::INode>::async_poll::SerialFuture as core::future::future::Future>::poll"
+        },
+        {
+            "ts": 1744349374.6763313,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<<linux_object::fs::stdio::Stdin as rcore_fs::vfs::INode>::async_poll::SerialFuture as core::future::future::Future>::poll",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981378096"
+            }
+        },
+        {
+            "ts": 1744349374.6764517,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<<linux_object::fs::stdio::Stdin as rcore_fs::vfs::INode>::async_poll::SerialFuture as core::future::future::Future>::poll",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981378096"
+            }
+        },
+        {
+            "ts": 1744349374.6766362,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::async_poll::{closure#0}>>"
+        },
+        {
+            "ts": 1744349374.722786,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<zircon_object::task::thread::ThreadSwitchFuture as core::future::future::Future>::poll",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981280966"
+            }
+        },
+        {
+            "ts": 1744349374.745815,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::async_poll::{closure#0}>>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981284556"
+            }
+        },
+        {
+            "ts": 1744349374.7458477,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::async_poll::{closure#0}>>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981284556"
+            }
+        },
+        {
+            "ts": 1744349374.7459064,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}"
+        },
+        {
+            "ts": 1744349374.7851954,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981285754"
+            }
+        },
+        {
+            "ts": 1744349374.8066869,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}"
+        },
+        {
+            "ts": 1744349374.847583,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981285754"
+            }
+        },
+        {
+            "ts": 1744349375.8654954,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<<<linux_syscall::Syscall>::sys_select::{closure#0}::SelectFuture as core::future::future::Future>::poll::{closure#0}>"
+        },
+        {
+            "ts": 1744349375.9362524,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<<<linux_syscall::Syscall>::sys_select::{closure#0}::SelectFuture as core::future::future::Future>::poll::{closure#0}>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981284556"
+            }
+        },
+        {
+            "ts": 1744349375.9362931,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<<<linux_syscall::Syscall>::sys_select::{closure#0}::SelectFuture as core::future::future::Future>::poll::{closure#0}>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981284556"
+            }
+        },
+        {
+            "ts": 1744349375.9363637,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}"
+        },
+        {
+            "ts": 1744349375.9802878,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981285754"
+            }
+        },
+        {
+            "ts": 1744349376.0137465,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<zircon_object::task::thread::ThreadSwitchFuture as core::future::future::Future>::poll"
+        },
+        {
+            "ts": 1744349376.089521,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<<linux_object::fs::stdio::Stdin as rcore_fs::vfs::INode>::async_poll::SerialFuture as core::future::future::Future>::poll"
+        },
+        {
+            "ts": 1744349376.1504383,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<<linux_object::fs::stdio::Stdin as rcore_fs::vfs::INode>::async_poll::SerialFuture as core::future::future::Future>::poll",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981378096"
+            }
+        },
+        {
+            "ts": 1744349376.1505058,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<<linux_object::fs::stdio::Stdin as rcore_fs::vfs::INode>::async_poll::SerialFuture as core::future::future::Future>::poll",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981378096"
+            }
+        },
+        {
+            "ts": 1744349376.150606,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::async_poll::{closure#0}>>"
+        },
+        {
+            "ts": 1744349376.190433,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<zircon_object::task::thread::ThreadSwitchFuture as core::future::future::Future>::poll",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981280966"
+            }
+        },
+        {
+            "ts": 1744349376.2133048,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::async_poll::{closure#0}>>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981284556"
+            }
+        },
+        {
+            "ts": 1744349376.2133348,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::async_poll::{closure#0}>>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981284556"
+            }
+        },
+        {
+            "ts": 1744349376.2133875,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}"
+        },
+        {
+            "ts": 1744349376.2519145,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981285754"
+            }
+        },
+        {
+            "ts": 1744349376.2766595,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}"
+        },
+        {
+            "ts": 1744349376.3193645,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981285754"
+            }
+        },
+        {
+            "ts": 1744349377.3382587,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<<<linux_syscall::Syscall>::sys_select::{closure#0}::SelectFuture as core::future::future::Future>::poll::{closure#0}>"
+        },
+        {
+            "ts": 1744349377.3894439,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<<<linux_syscall::Syscall>::sys_select::{closure#0}::SelectFuture as core::future::future::Future>::poll::{closure#0}>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981284556"
+            }
+        },
+        {
+            "ts": 1744349377.3894897,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<<<linux_syscall::Syscall>::sys_select::{closure#0}::SelectFuture as core::future::future::Future>::poll::{closure#0}>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981284556"
+            }
+        },
+        {
+            "ts": 1744349377.3895698,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}"
+        },
+        {
+            "ts": 1744349377.4258134,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981285754"
+            }
+        },
+        {
+            "ts": 1744349377.4617732,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<zircon_object::task::thread::ThreadSwitchFuture as core::future::future::Future>::poll"
+        },
+        {
+            "ts": 1744349377.5246422,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<<linux_object::fs::stdio::Stdin as rcore_fs::vfs::INode>::async_poll::SerialFuture as core::future::future::Future>::poll"
+        },
+        {
+            "ts": 1744349377.5849345,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<<linux_object::fs::stdio::Stdin as rcore_fs::vfs::INode>::async_poll::SerialFuture as core::future::future::Future>::poll",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981378096"
+            }
+        },
+        {
+            "ts": 1744349377.5850055,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<<linux_object::fs::stdio::Stdin as rcore_fs::vfs::INode>::async_poll::SerialFuture as core::future::future::Future>::poll",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981378096"
+            }
+        },
+        {
+            "ts": 1744349377.5851052,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::async_poll::{closure#0}>>"
+        },
+        {
+            "ts": 1744349377.6251738,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<zircon_object::task::thread::ThreadSwitchFuture as core::future::future::Future>::poll",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981280966"
+            }
+        },
+        {
+            "ts": 1744349377.647265,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::async_poll::{closure#0}>>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981284556"
+            }
+        },
+        {
+            "ts": 1744349377.6472962,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::async_poll::{closure#0}>>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981284556"
+            }
+        },
+        {
+            "ts": 1744349377.647351,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}"
+        },
+        {
+            "ts": 1744349377.6903384,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981285754"
+            }
+        },
+        {
+            "ts": 1744349377.7146611,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}"
+        },
+        {
+            "ts": 1744349377.7589235,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981285754"
+            }
+        },
+        {
+            "ts": 1744349378.8022084,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<<<linux_syscall::Syscall>::sys_select::{closure#0}::SelectFuture as core::future::future::Future>::poll::{closure#0}>"
+        },
+        {
+            "ts": 1744349378.8499064,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<<<linux_syscall::Syscall>::sys_select::{closure#0}::SelectFuture as core::future::future::Future>::poll::{closure#0}>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981284556"
+            }
+        },
+        {
+            "ts": 1744349378.8499596,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<<<linux_syscall::Syscall>::sys_select::{closure#0}::SelectFuture as core::future::future::Future>::poll::{closure#0}>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981284556"
+            }
+        },
+        {
+            "ts": 1744349378.8500273,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}"
+        },
+        {
+            "ts": 1744349378.8941393,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981285754"
+            }
+        },
+        {
+            "ts": 1744349378.9206681,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<zircon_object::task::thread::ThreadSwitchFuture as core::future::future::Future>::poll"
+        },
+        {
+            "ts": 1744349379.0015602,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<<linux_object::fs::stdio::Stdin as rcore_fs::vfs::INode>::async_poll::SerialFuture as core::future::future::Future>::poll"
+        },
+        {
+            "ts": 1744349379.0721223,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<<linux_object::fs::stdio::Stdin as rcore_fs::vfs::INode>::async_poll::SerialFuture as core::future::future::Future>::poll",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981378096"
+            }
+        },
+        {
+            "ts": 1744349379.072208,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<<linux_object::fs::stdio::Stdin as rcore_fs::vfs::INode>::async_poll::SerialFuture as core::future::future::Future>::poll",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981378096"
+            }
+        },
+        {
+            "ts": 1744349379.0723102,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::async_poll::{closure#0}>>"
+        },
+        {
+            "ts": 1744349379.118316,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<zircon_object::task::thread::ThreadSwitchFuture as core::future::future::Future>::poll",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981280966"
+            }
+        },
+        {
+            "ts": 1744349379.141449,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::async_poll::{closure#0}>>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981284556"
+            }
+        },
+        {
+            "ts": 1744349379.1414819,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::async_poll::{closure#0}>>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981284556"
+            }
+        },
+        {
+            "ts": 1744349379.141537,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}"
+        },
+        {
+            "ts": 1744349379.1758955,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981285754"
+            }
+        },
+        {
+            "ts": 1744349379.1974704,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}"
+        },
+        {
+            "ts": 1744349379.2350786,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981285754"
+            }
+        },
+        {
+            "ts": 1744349380.2423413,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<<<linux_syscall::Syscall>::sys_select::{closure#0}::SelectFuture as core::future::future::Future>::poll::{closure#0}>"
+        },
+        {
+            "ts": 1744349380.2966623,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<<<linux_syscall::Syscall>::sys_select::{closure#0}::SelectFuture as core::future::future::Future>::poll::{closure#0}>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981284556"
+            }
+        },
+        {
+            "ts": 1744349380.2967021,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<<<linux_syscall::Syscall>::sys_select::{closure#0}::SelectFuture as core::future::future::Future>::poll::{closure#0}>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981284556"
+            }
+        },
+        {
+            "ts": 1744349380.2967641,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}"
+        },
+        {
+            "ts": 1744349380.3319156,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981285754"
+            }
+        },
+        {
+            "ts": 1744349380.357078,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<zircon_object::task::thread::ThreadSwitchFuture as core::future::future::Future>::poll"
+        },
+        {
+            "ts": 1744349380.4129422,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<<linux_object::fs::stdio::Stdin as rcore_fs::vfs::INode>::async_poll::SerialFuture as core::future::future::Future>::poll"
+        },
+        {
+            "ts": 1744349380.4745324,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<<linux_object::fs::stdio::Stdin as rcore_fs::vfs::INode>::async_poll::SerialFuture as core::future::future::Future>::poll",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981378096"
+            }
+        },
+        {
+            "ts": 1744349380.4747214,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<<linux_object::fs::stdio::Stdin as rcore_fs::vfs::INode>::async_poll::SerialFuture as core::future::future::Future>::poll",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981378096"
+            }
+        },
+        {
+            "ts": 1744349380.4748592,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::async_poll::{closure#0}>>"
+        },
+        {
+            "ts": 1744349380.5238812,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<zircon_object::task::thread::ThreadSwitchFuture as core::future::future::Future>::poll",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981280966"
+            }
+        },
+        {
+            "ts": 1744349380.5482,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::async_poll::{closure#0}>>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981284556"
+            }
+        },
+        {
+            "ts": 1744349380.5482302,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::async_poll::{closure#0}>>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981284556"
+            }
+        },
+        {
+            "ts": 1744349380.5482812,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}"
+        },
+        {
+            "ts": 1744349380.5824046,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981285754"
+            }
+        },
+        {
+            "ts": 1744349380.5993276,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}"
+        },
+        {
+            "ts": 1744349380.6273742,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981285754"
+            }
+        },
+        {
+            "ts": 1744349381.6398914,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<<<linux_syscall::Syscall>::sys_select::{closure#0}::SelectFuture as core::future::future::Future>::poll::{closure#0}>"
+        },
+        {
+            "ts": 1744349381.6845849,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<<<linux_syscall::Syscall>::sys_select::{closure#0}::SelectFuture as core::future::future::Future>::poll::{closure#0}>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981284556"
+            }
+        },
+        {
+            "ts": 1744349381.684639,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<<<linux_syscall::Syscall>::sys_select::{closure#0}::SelectFuture as core::future::future::Future>::poll::{closure#0}>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981284556"
+            }
+        },
+        {
+            "ts": 1744349381.6847193,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}"
+        },
+        {
+            "ts": 1744349381.7284043,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981285754"
+            }
+        },
+        {
+            "ts": 1744349381.760257,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<zircon_object::task::thread::ThreadSwitchFuture as core::future::future::Future>::poll"
+        },
+        {
+            "ts": 1744349381.8316813,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<<linux_object::fs::stdio::Stdin as rcore_fs::vfs::INode>::async_poll::SerialFuture as core::future::future::Future>::poll"
+        },
+        {
+            "ts": 1744349381.889568,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<<linux_object::fs::stdio::Stdin as rcore_fs::vfs::INode>::async_poll::SerialFuture as core::future::future::Future>::poll",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981378096"
+            }
+        },
+        {
+            "ts": 1744349381.8896334,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<<linux_object::fs::stdio::Stdin as rcore_fs::vfs::INode>::async_poll::SerialFuture as core::future::future::Future>::poll",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981378096"
+            }
+        },
+        {
+            "ts": 1744349381.8897464,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::async_poll::{closure#0}>>"
+        },
+        {
+            "ts": 1744349381.9314432,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<zircon_object::task::thread::ThreadSwitchFuture as core::future::future::Future>::poll",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981280966"
+            }
+        },
+        {
+            "ts": 1744349381.9526446,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::async_poll::{closure#0}>>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981284556"
+            }
+        },
+        {
+            "ts": 1744349381.9526768,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::async_poll::{closure#0}>>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981284556"
+            }
+        },
+        {
+            "ts": 1744349381.9527292,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}"
+        },
+        {
+            "ts": 1744349381.9898393,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981285754"
+            }
+        },
+        {
+            "ts": 1744349382.0091195,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}"
+        },
+        {
+            "ts": 1744349382.0358267,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981285754"
+            }
+        },
+        {
+            "ts": 1744349383.034848,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<<<linux_syscall::Syscall>::sys_select::{closure#0}::SelectFuture as core::future::future::Future>::poll::{closure#0}>"
+        },
+        {
+            "ts": 1744349383.075326,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<<<linux_syscall::Syscall>::sys_select::{closure#0}::SelectFuture as core::future::future::Future>::poll::{closure#0}>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981284556"
+            }
+        },
+        {
+            "ts": 1744349383.075386,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<<<linux_syscall::Syscall>::sys_select::{closure#0}::SelectFuture as core::future::future::Future>::poll::{closure#0}>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981284556"
+            }
+        },
+        {
+            "ts": 1744349383.075452,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}"
+        },
+        {
+            "ts": 1744349383.1190453,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981285754"
+            }
+        },
+        {
+            "ts": 1744349383.1428251,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<zircon_object::task::thread::ThreadSwitchFuture as core::future::future::Future>::poll"
+        },
+        {
+            "ts": 1744349383.2049055,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<<linux_object::fs::stdio::Stdin as rcore_fs::vfs::INode>::async_poll::SerialFuture as core::future::future::Future>::poll"
+        },
+        {
+            "ts": 1744349383.2785857,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<<linux_object::fs::stdio::Stdin as rcore_fs::vfs::INode>::async_poll::SerialFuture as core::future::future::Future>::poll",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981378096"
+            }
+        },
+        {
+            "ts": 1744349383.2786572,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<<linux_object::fs::stdio::Stdin as rcore_fs::vfs::INode>::async_poll::SerialFuture as core::future::future::Future>::poll",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981378096"
+            }
+        },
+        {
+            "ts": 1744349383.2787564,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::async_poll::{closure#0}>>"
+        },
+        {
+            "ts": 1744349383.3247354,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<zircon_object::task::thread::ThreadSwitchFuture as core::future::future::Future>::poll",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981280966"
+            }
+        },
+        {
+            "ts": 1744349383.3418286,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::async_poll::{closure#0}>>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981284556"
+            }
+        },
+        {
+            "ts": 1744349383.3418522,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::async_poll::{closure#0}>>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981284556"
+            }
+        },
+        {
+            "ts": 1744349383.341895,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}"
+        },
+        {
+            "ts": 1744349383.3750014,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981285754"
+            }
+        },
+        {
+            "ts": 1744349383.3946571,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}"
+        },
+        {
+            "ts": 1744349383.438161,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981285754"
+            }
+        },
+        {
+            "ts": 1744349384.459052,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<<<linux_syscall::Syscall>::sys_select::{closure#0}::SelectFuture as core::future::future::Future>::poll::{closure#0}>"
+        },
+        {
+            "ts": 1744349384.513346,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<<<linux_syscall::Syscall>::sys_select::{closure#0}::SelectFuture as core::future::future::Future>::poll::{closure#0}>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981284556"
+            }
+        },
+        {
+            "ts": 1744349384.513392,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<<<linux_syscall::Syscall>::sys_select::{closure#0}::SelectFuture as core::future::future::Future>::poll::{closure#0}>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981284556"
+            }
+        },
+        {
+            "ts": 1744349384.5134637,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}"
+        },
+        {
+            "ts": 1744349384.5473037,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981285754"
+            }
+        },
+        {
+            "ts": 1744349384.5728261,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<zircon_object::task::thread::ThreadSwitchFuture as core::future::future::Future>::poll"
+        },
+        {
+            "ts": 1744349384.631461,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<<linux_object::fs::stdio::Stdin as rcore_fs::vfs::INode>::async_poll::SerialFuture as core::future::future::Future>::poll"
+        },
+        {
+            "ts": 1744349384.6908667,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<<linux_object::fs::stdio::Stdin as rcore_fs::vfs::INode>::async_poll::SerialFuture as core::future::future::Future>::poll",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981378096"
+            }
+        },
+        {
+            "ts": 1744349384.6909254,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<<linux_object::fs::stdio::Stdin as rcore_fs::vfs::INode>::async_poll::SerialFuture as core::future::future::Future>::poll",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981378096"
+            }
+        },
+        {
+            "ts": 1744349384.6910195,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::async_poll::{closure#0}>>"
+        },
+        {
+            "ts": 1744349384.7286487,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<zircon_object::task::thread::ThreadSwitchFuture as core::future::future::Future>::poll",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981280966"
+            }
+        },
+        {
+            "ts": 1744349384.7548099,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::async_poll::{closure#0}>>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981284556"
+            }
+        },
+        {
+            "ts": 1744349384.754849,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::async_poll::{closure#0}>>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981284556"
+            }
+        },
+        {
+            "ts": 1744349384.754908,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}"
+        },
+        {
+            "ts": 1744349384.809965,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981285754"
+            }
+        },
+        {
+            "ts": 1744349384.834657,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}"
+        },
+        {
+            "ts": 1744349384.8754396,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981285754"
+            }
+        },
+        {
+            "ts": 1744349385.9065566,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<<<linux_syscall::Syscall>::sys_select::{closure#0}::SelectFuture as core::future::future::Future>::poll::{closure#0}>"
+        },
+        {
+            "ts": 1744349385.9552805,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<<<linux_syscall::Syscall>::sys_select::{closure#0}::SelectFuture as core::future::future::Future>::poll::{closure#0}>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981284556"
+            }
+        },
+        {
+            "ts": 1744349385.955315,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<<<linux_syscall::Syscall>::sys_select::{closure#0}::SelectFuture as core::future::future::Future>::poll::{closure#0}>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981284556"
+            }
+        },
+        {
+            "ts": 1744349385.9553862,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}"
+        },
+        {
+            "ts": 1744349386.0249236,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981285754"
+            }
+        },
+        {
+            "ts": 1744349386.0562315,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<zircon_object::task::thread::ThreadSwitchFuture as core::future::future::Future>::poll"
+        },
+        {
+            "ts": 1744349386.1286743,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<<linux_object::fs::stdio::Stdin as rcore_fs::vfs::INode>::async_poll::SerialFuture as core::future::future::Future>::poll"
+        },
+        {
+            "ts": 1744349386.1818247,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<<linux_object::fs::stdio::Stdin as rcore_fs::vfs::INode>::async_poll::SerialFuture as core::future::future::Future>::poll",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981378096"
+            }
+        },
+        {
+            "ts": 1744349386.181893,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<<linux_object::fs::stdio::Stdin as rcore_fs::vfs::INode>::async_poll::SerialFuture as core::future::future::Future>::poll",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981378096"
+            }
+        },
+        {
+            "ts": 1744349386.1819854,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::async_poll::{closure#0}>>"
+        },
+        {
+            "ts": 1744349386.2164273,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<zircon_object::task::thread::ThreadSwitchFuture as core::future::future::Future>::poll",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981280966"
+            }
+        },
+        {
+            "ts": 1744349386.2369113,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::async_poll::{closure#0}>>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981284556"
+            }
+        },
+        {
+            "ts": 1744349386.2369409,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::async_poll::{closure#0}>>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981284556"
+            }
+        },
+        {
+            "ts": 1744349386.23699,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}"
+        },
+        {
+            "ts": 1744349386.262446,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981285754"
+            }
+        },
+        {
+            "ts": 1744349386.2811022,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}"
+        },
+        {
+            "ts": 1744349386.3167264,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981285754"
+            }
+        },
+        {
+            "ts": 1744349387.328121,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<<<linux_syscall::Syscall>::sys_select::{closure#0}::SelectFuture as core::future::future::Future>::poll::{closure#0}>"
+        },
+        {
+            "ts": 1744349387.425291,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<<<linux_syscall::Syscall>::sys_select::{closure#0}::SelectFuture as core::future::future::Future>::poll::{closure#0}>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981284556"
+            }
+        },
+        {
+            "ts": 1744349387.4253378,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<<<linux_syscall::Syscall>::sys_select::{closure#0}::SelectFuture as core::future::future::Future>::poll::{closure#0}>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981284556"
+            }
+        },
+        {
+            "ts": 1744349387.4253998,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}"
+        },
+        {
+            "ts": 1744349387.4622052,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981285754"
+            }
+        },
+        {
+            "ts": 1744349387.4886022,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<zircon_object::task::thread::ThreadSwitchFuture as core::future::future::Future>::poll"
+        },
+        {
+            "ts": 1744349387.5418634,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<<linux_object::fs::stdio::Stdin as rcore_fs::vfs::INode>::async_poll::SerialFuture as core::future::future::Future>::poll"
+        },
+        {
+            "ts": 1744349387.5962245,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<<linux_object::fs::stdio::Stdin as rcore_fs::vfs::INode>::async_poll::SerialFuture as core::future::future::Future>::poll",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981378096"
+            }
+        },
+        {
+            "ts": 1744349387.5962908,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<<linux_object::fs::stdio::Stdin as rcore_fs::vfs::INode>::async_poll::SerialFuture as core::future::future::Future>::poll",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981378096"
+            }
+        },
+        {
+            "ts": 1744349387.596394,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::async_poll::{closure#0}>>"
+        },
+        {
+            "ts": 1744349387.6335008,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<zircon_object::task::thread::ThreadSwitchFuture as core::future::future::Future>::poll",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981280966"
+            }
+        },
+        {
+            "ts": 1744349387.6555064,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::async_poll::{closure#0}>>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981284556"
+            }
+        },
+        {
+            "ts": 1744349387.655536,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::async_poll::{closure#0}>>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981284556"
+            }
+        },
+        {
+            "ts": 1744349387.6555889,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}"
+        },
+        {
+            "ts": 1744349387.6920748,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981285754"
+            }
+        },
+        {
+            "ts": 1744349387.7136962,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}"
+        },
+        {
+            "ts": 1744349387.743465,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981285754"
+            }
+        },
+        {
+            "ts": 1744349388.8423095,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<<<linux_syscall::Syscall>::sys_select::{closure#0}::SelectFuture as core::future::future::Future>::poll::{closure#0}>"
+        },
+        {
+            "ts": 1744349388.9204671,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<<<linux_syscall::Syscall>::sys_select::{closure#0}::SelectFuture as core::future::future::Future>::poll::{closure#0}>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981284556"
+            }
+        },
+        {
+            "ts": 1744349388.920504,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<<<linux_syscall::Syscall>::sys_select::{closure#0}::SelectFuture as core::future::future::Future>::poll::{closure#0}>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981284556"
+            }
+        },
+        {
+            "ts": 1744349388.9205754,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}"
+        },
+        {
+            "ts": 1744349388.956119,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981285754"
+            }
+        },
+        {
+            "ts": 1744349388.9881313,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<zircon_object::task::thread::ThreadSwitchFuture as core::future::future::Future>::poll"
+        },
+        {
+            "ts": 1744349389.0587113,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<<linux_object::fs::stdio::Stdin as rcore_fs::vfs::INode>::async_poll::SerialFuture as core::future::future::Future>::poll"
+        },
+        {
+            "ts": 1744349389.1249702,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<<linux_object::fs::stdio::Stdin as rcore_fs::vfs::INode>::async_poll::SerialFuture as core::future::future::Future>::poll",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981378096"
+            }
+        },
+        {
+            "ts": 1744349389.1250384,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<<linux_object::fs::stdio::Stdin as rcore_fs::vfs::INode>::async_poll::SerialFuture as core::future::future::Future>::poll",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981378096"
+            }
+        },
+        {
+            "ts": 1744349389.1251264,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::async_poll::{closure#0}>>"
+        },
+        {
+            "ts": 1744349389.1626844,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<zircon_object::task::thread::ThreadSwitchFuture as core::future::future::Future>::poll",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981280966"
+            }
+        },
+        {
+            "ts": 1744349389.1878493,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::async_poll::{closure#0}>>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981284556"
+            }
+        },
+        {
+            "ts": 1744349389.1879015,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "ore::ptr::drop_in_place::<core::future::from_generator::GenFuture<<linux_object::fs::file::File as linux_object::fs::FileLike>::async_poll::{closure#0}>>",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981284556"
+            }
+        },
+        {
+            "ts": 1744349389.1879568,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}"
+        },
+        {
+            "ts": 1744349389.2217722,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981285754"
+            }
+        },
+        {
+            "ts": 1744349389.2492113,
+            "ph": "B",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}"
+        },
+        {
+            "ts": 1744349389.2973428,
+            "ph": "E",
+            "pid": "1",
+            "tid": " 1",
+            "name": "<executor::task_collection::TaskCollection>::generator::{closure#0}",
+            "args": {
+                "Function address (For recognizing anonymous type)": "0x18446743800981285754"
+            }
+        }
+    ],
+    "displayTimeUnit": "ms"
+}
