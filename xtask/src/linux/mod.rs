@@ -60,7 +60,7 @@ impl LinuxRootfs {
             // uftrace format: "cat {} | grep -E \"_<async_std..task..builder..SupportTaskLocals<F> as core..future..future..Future>::poll::_{{closure}}|_<core..future..from_generator..GenFuture<T> as core..future..future..Future>::poll|.*::_\\{{closure\\}}|.*as core..future..future..Future>::poll\"",
             .arg("-c") 
             .arg(format!(
-                "cat {} | |grep -E \"<async_std..task..builder..SupportTaskLocals<.*> as core..future..future..Future>::poll::\\{{closure.*\\}}|<core..future..from_generator..GenFuture<.*> as core..future..future..Future>::poll|.*::\\{{closure.*\\}}|.*as core..future..future..Future>::poll|executor\" | grep -vi \"bpf|btree\"", 
+                "cat {} | grep -E \"<async_std..task..builder..SupportTaskLocals<.*> as core..future..future..Future>::poll::\\{{closure.*\\}}|<core..future..from_generator..GenFuture<.*> as core..future..future..Future>::poll|.*::\\{{closure.*\\}}|.*as core..future..future..Future>::poll|executor\" | grep -vi \"bpf|btree\"", 
                 zcore_sym.display()
             ))
             .output()
