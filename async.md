@@ -1,12 +1,30 @@
 How to Run
 =====================
-0. setup environment. see <https://livingshade.github.io/ebpf-doc/zcore/> for detail. NOTE: download clang-**12** at <https://github.com/llvm/llvm-project/releases/tag/llvmorg-12.0.1>
-1. install `rustfilt` and `grep`
-2. cd zCore && cargo clean
-3. cargo other-test --arch=riscv64
-4. rm async.log
-5. cargo qemu --arch=riscv64 | tee >(sed $'s/\033[[][^A-Za-z]*[A-Za-z]//g' > async.log)
-6. python3 dump.py
+0. git clone https://github.com/chenzhiy2001/zCore
+
+1. setup environment.
+
+	- cd zCore
+	- see <https://livingshade.github.io/ebpf-doc/zcore/> dependencies part for detail. 
+
+	NOTE: download clang-**12** at <https://github.com/llvm/llvm-project/releases/tag/llvmorg-12.0.1>
+
+2. install `rustfilt` and `grep`
+
+3. cd zCore && cargo clean
+
+4. cargo other-test --arch=riscv64
+
+5. rm async.log
+
+6. cargo qemu --arch=riscv64 | tee >(sed $'s/\033[[][^A-Za-z]*[A-Za-z]//g' > async.log)
+
+7. python3 dump.py
+
+8. put  output.json  into https://ui.perfetto.dev/ to get the flame graph
+
+	NOTE: If encounter symbol table related problem during the reproduction process, you can refer to [this student's reproduction log](https://github.com/Irissssaa/code-debug_Asynchronous-trace/discussions/10)
+
 
 
 
