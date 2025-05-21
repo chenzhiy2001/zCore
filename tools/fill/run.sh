@@ -1,1 +1,1 @@
-python3 /home/s2020012692/ebpf/zCore/tools/fill/fill.py /home/s2020012692/ebpf/zCore/target/riscv64/release/zcore riscv64 /home/s2020012692/ebpf/zCore/tools/fill
+python3 ./tools/fill/fill.py ./target/riscv64/release/zcore riscv64 ./ignored/dump
